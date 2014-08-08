@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html id='webView'>
+<head>
+<meta charset='utf-8'>
+<!--[if IE]>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;' name='viewport'>
+<![endif]-->
+<title>GestureWorks Gameplay</title>
+<!-- html5 boilerplate faster page load hack - added to increase page load performance -->
+<!--[if IE]>  <![endif]-->
+<link content='http://beta.gameplay.gestureworks.com/gameplay_forums/authoring-virtual-controllers/topics/pro-tips-for-using-and-creating-vcs' rel='canonical'>
+<meta content='article' name='og:type' property='og:type'>
+<meta content='GestureWorks Gameplay' name='og:title' property='og:title'>
+<meta content='GestureWorks Gameplay' name='og:site_name' property='og:site_name'>
+<meta content='http://beta.gameplay.gestureworks.com/gameplay_forums/authoring-virtual-controllers/topics/pro-tips-for-using-and-creating-vcs' name='og:url' property='og:url'>
+<!-- using default image -->
+<meta content='http://beta.gameplay.gestureworks.com/assets/social_gestureworks_gameplay-6557c71a3551572139ae39d500106eff.jpg' name='og:image' property='og:image'>
+<!-- using default description -->
+<meta content='Dozens of pre-built Virtual Controllers come with GestureWorks Gameplay. The software also includes an easy-to-use authoring tool allowing you to build (and share) your own controllers for just about any Windows-based game or application.' name='og:description' property='og:description'>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="OHDdeQfdxsWSrZaL9MW4eII2BrkT9qqlLFXV57l3/T8=" name="csrf-token" />
+
+<link href="http://gesturekey-gameplay.dev/blog/feed.rss?max_results=50" rel="alternate" title="GestureWorks Gameplay Blog Feed" type="application/rss+xml" />
+<link href="../../../assets/application-3e07b0c29096720a9cfac34a1638dbb7.css" media="all" rel="stylesheet" type="text/css" />
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/2.1.0/es5-shim.min.js" type="text/javascript"></script>
+<script>
+  document.createElement('ng-include');
+  document.createElement('ng-pluralize');
+  document.createElement('ng-view');
+  document.createElement('pagination');
+</script>
+<![endif]-->
+<script src="../../../assets/modernizr-min-0657f20591a634e4699eba62bbb23900.js" type="text/javascript"></script>
+<script>
+  var _domReadyQueue = [];
+  $ = function (fun) { _domReadyQueue.push(fun) }
+</script>
+</head>
+<body ng-app='GesturekeyGameplay'>
+<section>
+<div id='masthead'>
+<div id='loginBar'>
+<div class='pageExt'>
+<div id='loginBar'>
+<div class='pageExt'>
+<ul class='navbar'>
+<li class='textButton logIn fadeHover'><a href="http://beta.gameplay.gestureworks.com/users/sign_in">Sign in</a></li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+<div id='banner'>
+<div class='pageInt'>
+<a href="http://beta.gameplay.gestureworks.com/virtual_controllers" class="block fadeHover"><header>
+<h1>GestureWorks GamePlay</h1>
+<h2>Touch controls for your favorite games.</h2>
+</header>
+</a></div>
+</div>
+<div id='navigation'>
+<div class='pageInt'>
+<ul class='navbar'>
+<li class='fadeHover'>
+<a href="http://beta.gameplay.gestureworks.com/virtual_controllers">Virtual Controllers</a>
+</li>
+<li class='fadeHover first'>
+<a href="http://beta.gameplay.gestureworks.com/how-it-works">How It Works</a></li>
+
+<li class='active fadeHover'>
+<a href="http://beta.gameplay.gestureworks.com/forums">Forum</a>
+</li>
+</ul>
+
+<div class='searchWrap'>
+</div>
+</div>
+</div>
+</div>
+<div class='clearBoth'></div>
+</section>
+
+<div id='content'>
+<div class='pageInt'>
+<div class='flash'></div>
+<!-- begin forum topic show - views/forem/topics/show.html.erb -->
+
+  <div id='topic' class='unlocked'>
+  
+    <!-- begin forum topic head partial - views/forem/topics/_head.html.erb -->
+
+<div id='forum' class="topics">
+
+  <h1><a href="../../index.html">Forums</a> &raquo; <a href="../../authoring-virtual-controllers.html">Authoring Virtual Controllers</a> &raquo; Pro Tips for using and creating VCs</h1>
+  
+  
+<!-- end forum topic head partial - views/forem/topics/_head.html.erb -->
+
+    
+    <form class="searchWrap version2 floatRight" action="http://beta.gameplay.gestureworks.com/gameplay_forums/search" method="GET">
+      <input id="category" name="category" type="hidden" value="getting-started-with-gameplay" />
+      <input id="forum" name="forum" type="hidden" value="authoring-virtual-controllers" />
+      <input class="searchField" name="q" placeholder="Search..." type="search">
+      <input class="searchImg version2" id="searchButton" title="Go" type="submit" value="">
+    </form>
+  
+    <menu id='forum_topic_links'>
+    </menu>
+    
+    <div class="moderationBlock nonAdmin">
+      
+      
+      
+      <div class="topPaginationBlock"></div>
+    
+    </div><!-- /.moderationBlock -->
+  
+    <div id='posts'>
+      <!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-40'></a>
+        <div id='post_1' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/f39f63ae69204c0c27e9dc46929d5f28?s=60" /></div>
+            <div class='username'>
+              ryan
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='pro-tips-for-using-and-creating-vcs.html#post-40'>
+            <time class="postTime" style="float:left;" datetime="2014-06-03 17:11:57">2 months  ago</time>
+          </a> 
+          
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>GWG is a seemingly simple, but powerful program that can be used in many unexpected ways. This topic is intended to help out new and old users alike when creating and modifying community VCs. Please feel free to add ideas and share gestures, button combinations, etc  that you personally use in your gaming endeavors!</p>
+
+<pre><code>                                                                              Global Gestures:
+</code></pre>
+
+<p>These are some of the most powerful (and tricky) things you can use in GWG and here are some combinations I like using. </p>
+
+<p><strong>Mouse input (clicking on screen in specific location) Drag +Tap gestures</strong></p>
+
+<p>Assigned--
+Drag - [direction any|fingers 1| input left mouse click]
+Tap - [fingers 1|input left mouse click]
+Drag - [direction any|fingers 2| input right mouse click]
+Tap - [fingers 2| input right mouse click}</p>
+
+<p>---This combination is really useful for going through menus and playing games where you need to click somewhere on the screen. A modification to this set up for games like XCOM where you might not want to move somewhere is change right/left mouse click to &quot;Mouse Hover&quot;</p>
+
+<p><strong>Mouse look in FPS</strong></p>
+
+<p>(test out that accelerometer in the remote control!)</p>
+
+<p>Assigned--
+Drag - [direction any|fingers 1| input mouse look]</p>
+
+<p>---This is simple bind can be modified in many ways. Try making left mouse click a button above your d-pad so you can shoot with index and move with thumb. You can also go in game settings to change look sensitivity, and try changing keybinds for alt fire for button press - dont be afraid to customize your experience, that is the point of GWG! Another fun option is to put a button with low opacity in the middle of your cross hairs. This makes shooting easy and fluid feeling!</p>
+
+<pre><code>                                                                                     Buttons:
+</code></pre>
+
+<p>These are some of your primary tools, simple yet effective</p>
+
+<p><strong>Movement</strong></p>
+
+<p>Assigned--
+1 button - [key any]
+2 button - [key any]
+3 button - [key any]</p>
+
+<p>---As we finishing fixing more pressing matters things like the dpad will get better and better. But for some games all you need is forward and backward. Try using just 2 or 3 buttons assigned to direction or wasd for movement. This is good in games like ibb &amp; obb where there are just 3 buttons (left/right jump) for precision and de-cluttering your screen</p>
+
+<pre><code>                                                                                                                 Other:
+</code></pre>
+
+<p>Try combinations!</p>
+
+<p><strong>Combinations</strong>   </p>
+
+<p>Assigned--
+Any</p>
+
+<p>---If you are running GWG with a keyboard and mouse, dont be afraid to combine the touch and normal remote play. Again, this is about customizing your own experience, in menu heavy games (like MMOs) sometimes it is better to use GWG to navigate your through the menus etc, and fight like you normally would mouse and keyboard. </p>
+
+<pre><code>                                                                                                                Extra:
+</code></pre>
+
+<p>Also make sure to check out all the buttons you can actually assign to a key, (click input/key and scroll down list) it is very comprehensive with not only keyboard buttons, but controller buttons, and mouse functions as well. In fact even if it looks daunting check out the entire bottom bar, you can almost always find a way to do something from the extensive list of options that are available . On global gestures screen dont be afraid to use the rotate and scale functions for normal inputs, they work really well for attacks and other specific actions. Hold tap is also useful for making specific actions go off; just hold one finger down then tap with other hand! </p>
+
+<p>------------&gt;This is a very small list intended to be a starting point. It will be updated with more and more tips as time goes on. I encourage anyone to post their own strategies and solutions you take when playing your favorite games with GWG</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-54'></a>
+        <div id='post_2' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/f39f63ae69204c0c27e9dc46929d5f28?s=60" /></div>
+            <div class='username'>
+              ryan
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='pro-tips-for-using-and-creating-vcs.html#post-54'>
+            <time class="postTime" style="float:left;" datetime="2014-06-06 14:58:59">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="pro-tips-for-using-and-creating-vcs.html#post-40">In reply to ryan</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Some more tips! </p>
+
+<p>Although very buried at the moment we have an experimental section that allows for accelerometer tilt use on your tablet (not remote) - still testing and tweaking this!</p>
+
+<p>The way you get to it is:</p>
+
+<p>In a VC go all the way to your properties tab. On the right hand side is a place you can change how long of a delay the game starts with, launching without clients, and a couple other functions. On the bottom of that is a section titled &quot;experimental&quot; </p>
+
+<p>Check sensors, now go to your global gestures and on the top by the views it says touch and sensor, click sensor. 
+Since it is currently just a tilt function, try it on racing games like Dirt3 and Trials fusion!
+Note ** that you should turn off your orientation adjustment settings on your computer. To do this go to your desktop right click and go to screen resolution&gt; uncheck allow the screen to auto rotate!** </p>
+
+<p><strong>Two tips for remote play</strong></p>
+
+<p>Click on the gear at the top of a vc, this is a settings tab a couple more options are clickable here including &quot;hide desktop elements in remote view&quot;, this is also a great tab to check while connecting your bluetooth device!</p>
+
+<p>For more accelerometer options with the remote pad; while on a remote device go to the options tab. This will let you change the orientation of accelerometer (some phones are adjusted to be upright). You can also play sounds, show effects, and even make it rumble!</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+
+    </div>
+  
+    <div class="bottomPaginationV2Block "></div>
+    
+  </div>
+  
+</div>
+
+<!-- end forum topic show - views/forem/topics/show.html.erb -->
+
+<div class='clearBoth'></div>
+</div>
+<!-- /.pageInt -->
+<div class='clearBoth'>&nbsp;</div>
+</div>
+<!-- /#content -->
+<div class='clearBoth'></div>
+<section>
+<div id='footer'>
+<div class='pageInt'>
+<div class='minorRightColumn'>
+<ul class='navbar'>
+<li>
+<a href="http://beta.gameplay.gestureworks.com/bug_reports/new/">Bug Report?</a>
+</li>
+<li>
+<a href='http://gestureworks.com/legal' target='_blank'>Legal &nbsp;/&nbsp; Terms Of Use</a>
+</li>
+</ul>
+<div class='clearBoth'>
+<!-- clearing div -->
+</div>
+<ul class='socialMedia'>
+<li class='facebook fadeHover'>
+<a href='https://www.facebook.com/gwgameplay' target='_blank'>
+<!-- facebook icon from sprite included as background -->
+</a>
+</li>
+<li class='tumblr fadeHover'>
+<a href='http://windows8touch.tumblr.com/' target='_blank'>
+<!-- tumblr icon from sprite included as background -->
+</a>
+</li>
+<li class='twitter fadeHover'>
+<a href='https://twitter.com/gestureworks' target='_blank'>
+<!-- twitter icon from sprite included as background -->
+</a>
+</li>
+</ul>
+</div>
+<!-- /.minorRightColumn -->
+<div class='minorLeftColumn'>
+<ul class='navbar'>
+<li class='hidden'><li><a href="http://beta.gameplay.gestureworks.com/virtual_controllers" class=" ">Virtual Controllers</a></li></li>
+<li class='fadeHover first'>
+<a href="http://beta.gameplay.gestureworks.com/how-it-works">How It Works</a></li>
+
+<li class='active fadeHover'>
+<a href="http://beta.gameplay.gestureworks.com/forums">Forum</a>
+</li>
+</ul>
+
+</div>
+<!-- /.minorLeftColumn -->
+<div class='majorLeftColumn'>
+<div id='shareThisExtWrapper' style='height:22px;overflow:hidden;margin:0 0 17px -4px;'>
+<div id='shareThisIntWrapper' style='position:relative;top:-51px;'>
+<span class='st_facebook_vcount' displayText='Facebook'></span>
+<span class='st_twitter_vcount' displayText='Tweet'></span>
+<span class='st_googleplus_vcount' displayText='Google +'></span>
+<!-- restore three lines above when out of beta and remove three lines below -->
+</div>
+</div>
+<!-- /#shareThisWrapper -->
+<a href='http://gestureworks.com' target='_blank'>
+<img alt='GestureWorks' class='gwFooterLogo' src='../../../assets/gwlogo-255x50.png'>
+</a>
+<p>
+&copy; 2014 Ideum. All rights reserved.
+<a href='http://ideum.com'>Ideum</a>
+and
+<a href='http://gestureworks.com'>GestureWorks</a>
+are trademarks of Ideum, Inc.
+All other trademarks are property of their respective owners in the US and other countries.
+</p>
+</div>
+<!-- /.majorRightColumn -->
+</div>
+<!-- /.pageInt -->
+</div>
+</section>
+<script src="http://ws.sharethis.com/button/buttons.js" type="text/javascript"></script>
+<script>
+  if (typeof stLight === 'object') { // check for successful load
+    stLight.options({
+      publisher: "5a795834-a61b-44a5-b584-d96688b291d5",
+      doNotHash: false,
+      doNotCopy: false,
+      hashAddressBar: false
+    });
+  }
+</script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-198125-25', 'gestureworks.com');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+<!--[if lt IE 7 ]>
+<script src="/assets/dd_belatedpng-0a9c5a9e09b396bbdf7e543276b431fe.js" type="text/javascript"></script>
+<script>
+  DD_belatedPNG.fix('img, .png_bg');
+</script>
+<![endif]-->
+<script src="https://js.stripe.com/v2/" type="text/javascript"></script>
+<script>
+  Stripe.setPublishableKey('pk_live_FF37ehFAHbiZUcyO98PFcUzR');
+</script>
+<script src="../../../assets/application-44add310ad30fcd5838e18181051dac9.js" type="text/javascript"></script>
+
+<script>
+  _domReadyQueue.forEach($);
+  delete _domReadyQueue;
+</script>
+</body>
+</html>

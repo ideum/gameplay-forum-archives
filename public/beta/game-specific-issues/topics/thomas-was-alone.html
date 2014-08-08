@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html id='webView'>
+<head>
+<meta charset='utf-8'>
+<!--[if IE]>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;' name='viewport'>
+<![endif]-->
+<title>GestureWorks Gameplay</title>
+<!-- html5 boilerplate faster page load hack - added to increase page load performance -->
+<!--[if IE]>  <![endif]-->
+<link content='http://beta.gameplay.gestureworks.com/gameplay_forums/game-specific-issues/topics/thomas-was-alone' rel='canonical'>
+<meta content='article' name='og:type' property='og:type'>
+<meta content='GestureWorks Gameplay' name='og:title' property='og:title'>
+<meta content='GestureWorks Gameplay' name='og:site_name' property='og:site_name'>
+<meta content='http://beta.gameplay.gestureworks.com/gameplay_forums/game-specific-issues/topics/thomas-was-alone' name='og:url' property='og:url'>
+<!-- using default image -->
+<meta content='http://beta.gameplay.gestureworks.com/assets/social_gestureworks_gameplay-6557c71a3551572139ae39d500106eff.jpg' name='og:image' property='og:image'>
+<!-- using default description -->
+<meta content='Dozens of pre-built Virtual Controllers come with GestureWorks Gameplay. The software also includes an easy-to-use authoring tool allowing you to build (and share) your own controllers for just about any Windows-based game or application.' name='og:description' property='og:description'>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="OHDdeQfdxsWSrZaL9MW4eII2BrkT9qqlLFXV57l3/T8=" name="csrf-token" />
+
+<link href="http://gesturekey-gameplay.dev/blog/feed.rss?max_results=50" rel="alternate" title="GestureWorks Gameplay Blog Feed" type="application/rss+xml" />
+<link href="../../../assets/application-3e07b0c29096720a9cfac34a1638dbb7.css" media="all" rel="stylesheet" type="text/css" />
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/2.1.0/es5-shim.min.js" type="text/javascript"></script>
+<script>
+  document.createElement('ng-include');
+  document.createElement('ng-pluralize');
+  document.createElement('ng-view');
+  document.createElement('pagination');
+</script>
+<![endif]-->
+<script src="../../../assets/modernizr-min-0657f20591a634e4699eba62bbb23900.js" type="text/javascript"></script>
+<script>
+  var _domReadyQueue = [];
+  $ = function (fun) { _domReadyQueue.push(fun) }
+</script>
+</head>
+<body ng-app='GesturekeyGameplay'>
+<section>
+<div id='masthead'>
+<div id='loginBar'>
+<div class='pageExt'>
+<div id='loginBar'>
+<div class='pageExt'>
+<ul class='navbar'>
+<li class='textButton logIn fadeHover'><a href="http://beta.gameplay.gestureworks.com/users/sign_in">Sign in</a></li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+<div id='banner'>
+<div class='pageInt'>
+<a href="http://beta.gameplay.gestureworks.com/virtual_controllers" class="block fadeHover"><header>
+<h1>GestureWorks GamePlay</h1>
+<h2>Touch controls for your favorite games.</h2>
+</header>
+</a></div>
+</div>
+<div id='navigation'>
+<div class='pageInt'>
+<ul class='navbar'>
+<li class='fadeHover'>
+<a href="http://beta.gameplay.gestureworks.com/virtual_controllers">Virtual Controllers</a>
+</li>
+<li class='fadeHover first'>
+<a href="http://beta.gameplay.gestureworks.com/how-it-works">How It Works</a></li>
+
+<li class='active fadeHover'>
+<a href="http://beta.gameplay.gestureworks.com/forums">Forum</a>
+</li>
+</ul>
+
+<div class='searchWrap'>
+</div>
+</div>
+</div>
+</div>
+<div class='clearBoth'></div>
+</section>
+
+<div id='content'>
+<div class='pageInt'>
+<div class='flash'></div>
+<!-- begin forum topic show - views/forem/topics/show.html.erb -->
+
+  <div id='topic' class='unlocked'>
+  
+    <!-- begin forum topic head partial - views/forem/topics/_head.html.erb -->
+
+<div id='forum' class="topics">
+
+  <h1><a href="../../index.html">Forums</a> &raquo; <a href="../../game-specific-issues.html">Game-Specific Issues</a> &raquo; Thomas Was Alone</h1>
+  
+  
+<!-- end forum topic head partial - views/forem/topics/_head.html.erb -->
+
+    
+    <form class="searchWrap version2 floatRight" action="http://beta.gameplay.gestureworks.com/gameplay_forums/search" method="GET">
+      <input id="category" name="category" type="hidden" value="getting-started-with-gameplay" />
+      <input id="forum" name="forum" type="hidden" value="game-specific-issues" />
+      <input class="searchField" name="q" placeholder="Search..." type="search">
+      <input class="searchImg version2" id="searchButton" title="Go" type="submit" value="">
+    </form>
+  
+    <menu id='forum_topic_links'>
+    </menu>
+    
+    <div class="moderationBlock nonAdmin">
+      
+      
+      
+      <div class="topPaginationBlock"></div>
+    
+    </div><!-- /.moderationBlock -->
+  
+    <div id='posts'>
+      <!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-215'></a>
+        <div id='post_1' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/6f360b01db1337865a88d543dfe94e68?s=60" /></div>
+            <div class='username'>
+              YorkyPudsy
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='thomas-was-alone.html#post-215'>
+            <time class="postTime" style="float:left;" datetime="2014-07-14 15:57:17">25 days  ago</time>
+          </a> 
+          
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Test Device: Asus T100</p>
+
+<p>I can launch the game on it&#39;s own just fine (although I obviously can&#39;t even navigate the menus, as it needs some keyboard input!).</p>
+
+<p>But I&#39;ve created a VC in the latest beta using the exact same buttons/keys as listed in the &#39;Thomas Was Alone&#39; VC available for download for GWG v1.</p>
+
+<p>Unfortunately, when I try to launch the game (either via GWG or directly), it crashes out with a popup error dialog &#39;Couldn&#39;t switch to requested monitor resolution&#39;, along with a long list of all the resolutions it&#39;s tried, each one lower than the last.</p>
+
+<p>Any ideas? Something different with the beta / some other setting I need to change?</p>
+
+<p>Thanks!</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-217'></a>
+        <div id='post_2' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/6f360b01db1337865a88d543dfe94e68?s=60" /></div>
+            <div class='username'>
+              YorkyPudsy
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='thomas-was-alone.html#post-217'>
+            <time class="postTime" style="float:left;" datetime="2014-07-14 17:38:16">25 days  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="thomas-was-alone.html#post-215">In reply to YorkyPudsy</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Here&#39;s the &#39;output_log.txt&#39; from Thomas Was Alone&#39;s folder which contains a bit more info on what happened. Note that this is from my most recent attempt to get it to work without Steam actually running (probably explains the error that TWA can&#39;t hook Steam below). But the errors about switching resolution are the same either way...</p>
+
+<p>Initialize engine version: 4.5.1f3 (73cd57f80e3e)</p>
+
+<p>GfxDevice: creating device client; threaded=1</p>
+
+<p>Direct3D:</p>
+
+<p>Version:  Direct3D 9.0c [igdumdim32.dll 10.18.10.3417]</p>
+
+<p>Renderer: Intel(R) HD Graphics</p>
+
+<p>Vendor:   Intel</p>
+
+<p>VRAM:     515 MB (via DXGI)</p>
+
+<p>Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=0</p>
+
+<p>Begin MonoManager ReloadAssembly</p>
+
+<p>Platform assembly: D:\GAMES\Steam\SteamApps\common\thomaswasalone\ThomasWasAlone_Data\Managed\UnityEngine.dll (this message is harmless)</p>
+
+<p>Loading D:\GAMES\Steam\SteamApps\common\thomaswasalone\ThomasWasAlone_Data\Managed\UnityEngine.dll into Unity Child Domain</p>
+
+<p>Platform assembly: D:\GAMES\Steam\SteamApps\common\thomaswasalone\ThomasWasAlone_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)</p>
+
+<p>Loading D:\GAMES\Steam\SteamApps\common\thomaswasalone\ThomasWasAlone_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain</p>
+
+<p>Platform assembly: D:\GAMES\Steam\SteamApps\common\thomaswasalone\ThomasWasAlone_Data\Managed\Assembly-CSharp.dll (this message is harmless)</p>
+
+<p>Loading D:\GAMES\Steam\SteamApps\common\thomaswasalone\ThomasWasAlone_Data\Managed\Assembly-CSharp.dll into Unity Child Domain</p>
+
+<p>Platform assembly: D:\GAMES\Steam\SteamApps\common\thomaswasalone\ThomasWasAlone_Data\Managed\Assembly-UnityScript.dll (this message is harmless)</p>
+
+<p>Loading D:\GAMES\Steam\SteamApps\common\thomaswasalone\ThomasWasAlone_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain</p>
+
+<p>Platform assembly: D:\GAMES\Steam\SteamApps\common\thomaswasalone\ThomasWasAlone_Data\Managed\SteamworksManaged.dll (this message is harmless)</p>
+
+<p>Loading D:\GAMES\Steam\SteamApps\common\thomaswasalone\ThomasWasAlone_Data\Managed\SteamworksManaged.dll into Unity Child Domain</p>
+
+<ul>
+<li>Completed reload, in  0.206 seconds</li>
+</ul>
+
+<p>Initializing input.</p>
+
+<p>Input initialized.</p>
+
+<p>desktop: 1368x768 60Hz; virtual: 1368x768 at 0,0</p>
+
+<p>Platform assembly: D:\GAMES\Steam\SteamApps\common\thomaswasalone\ThomasWasAlone_Data\Managed\UnityScript.Lang.dll (this message is harmless)</p>
+
+<p>Platform assembly: D:\GAMES\Steam\SteamApps\common\thomaswasalone\ThomasWasAlone_Data\Managed\Boo.Lang.dll (this message is harmless)</p>
+
+<p>The referenced script on this Behaviour is missing!</p>
+
+<p>(Filename:  Line: 1783)</p>
+
+<p>Could not initialize the native Steamworks API. This is usually caused by a missing steam_appid.txt file or if the Steam client is not running.</p>
+
+<p>(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)</p>
+
+<p>SteamInitializeFailed</p>
+
+<p>(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)</p>
+
+<p>UnloadTime: 1.142783 ms</p>
+
+<p>Platform assembly: D:\GAMES\Steam\SteamApps\common\thomaswasalone\ThomasWasAlone_Data\Managed\System.Core.dll (this message is harmless)</p>
+
+<p>Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)</p>
+
+<p>Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 197.</p>
+
+<p>Total: 3.645694 ms (FindLiveObjects: 0.043007 ms CreateObjectMapping: 0.019967 ms MarkObjects: 0.195071 ms  DeleteObjects: 0.116735 ms)</p>
+
+<p>D3D device reset failed [invalid call]</p>
+
+<p>(Filename:  Line: 342)</p>
+
+<p>Switching to resolution 1368x768 failed, trying lower one
+D3D device reset failed [invalid call]</p>
+
+<p>(Filename:  Line: 342)</p>
+
+<p>Switching to resolution 1366x768 failed, trying lower one
+D3D device reset failed [invalid call]</p>
+
+<p>(Filename:  Line: 342)</p>
+
+<p>Switching to resolution 1360x768 failed, trying lower one
+D3D device reset failed [invalid call]</p>
+
+<p>(Filename:  Line: 342)</p>
+
+<p>Switching to resolution 1280x768 failed, trying lower one
+D3D device reset failed [invalid call]</p>
+
+<p>(Filename:  Line: 342)</p>
+
+<p>Switching to resolution 1280x720 failed, trying lower one
+D3D device reset failed [invalid call]</p>
+
+<p>(Filename:  Line: 342)</p>
+
+<p>Switching to resolution 1280x600 failed, trying lower one
+D3D device reset failed [invalid call]</p>
+
+<p>(Filename:  Line: 342)</p>
+
+<p>Switching to resolution 1024x768 failed, trying lower one
+D3D device reset failed [invalid call]</p>
+
+<p>(Filename:  Line: 342)</p>
+
+<p>Switching to resolution 800x600 failed, trying lower one
+D3D device reset failed [invalid call]</p>
+
+<p>(Filename:  Line: 342)</p>
+
+<p>Switching to resolution 640x480 failed, trying lower one
+D3D device reset failed [invalid call]</p>
+
+<p>(Filename:  Line: 342)</p>
+
+<p>Switching to resolution 640x400 failed, trying lower one
+D3D device reset failed [invalid call]</p>
+
+<p>(Filename:  Line: 342)</p>
+
+<p>Switching to resolution 512x384 failed, trying lower one
+D3D device reset failed [invalid call]</p>
+
+<p>(Filename:  Line: 342)</p>
+
+<p>Switching to resolution 512x384 failed, trying lower one</p>
+
+<p>All resolution switches have failed</p>
+
+<p>Screen: could not switch resolution (1368x768 fs=1 hz=0)</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-218'></a>
+        <div id='post_3' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/0a99334905f5faabca1c24c6244dd514?s=60" /></div>
+            <div class='username'>
+              john
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='thomas-was-alone.html#post-218'>
+            <time class="postTime" style="float:left;" datetime="2014-07-14 18:15:00">25 days  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="thomas-was-alone.html#post-217">In reply to YorkyPudsy</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Thanks for sending the game&#39;s logs, that was really helpful! We&#39;ve seen this issue with a few other games like Teslagrad and Broforce. There seems to be an issue with the way that Gameplay interacts with Unity games. We should have a fix out for this soon. </p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-219'></a>
+        <div id='post_4' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/6f360b01db1337865a88d543dfe94e68?s=60" /></div>
+            <div class='username'>
+              YorkyPudsy
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='thomas-was-alone.html#post-219'>
+            <time class="postTime" style="float:left;" datetime="2014-07-14 20:47:13">25 days  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="thomas-was-alone.html#post-218">In reply to john</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Excellent, thanks!
+Look forward to the next update.</p>
+
+<p>Is there a notification system for new versions, or do you send out an email to all beta testers automatically or something?</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-222'></a>
+        <div id='post_5' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/3e6d437092bd0428361bde30f5b8d2a3?s=60" /></div>
+            <div class='username'>
+              rowanderrick
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='thomas-was-alone.html#post-222'>
+            <time class="postTime" style="float:left;" datetime="2014-07-15 20:03:43">24 days  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="thomas-was-alone.html#post-219">In reply to YorkyPudsy</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Hi YorkyPudsy,</p>
+
+<p>We generally post beta updates in the Announcement section of the forum here. The new beta is live now, and you will need to perform a clean install for it. Further details can be found in Announcements.</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-225'></a>
+        <div id='post_6' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/6f360b01db1337865a88d543dfe94e68?s=60" /></div>
+            <div class='username'>
+              YorkyPudsy
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='thomas-was-alone.html#post-225'>
+            <time class="postTime" style="float:left;" datetime="2014-07-16 10:57:30">23 days  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="thomas-was-alone.html#post-222">In reply to rowanderrick</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Thanks. I&#39;ve done a clean install per instructions. Just posting updates for any previously problematic games as I retest...</p>
+
+<p>Mostly good news here. The update has fixed the crash and I can now play the game! Only problem is, if I change the quality setting in the game&#39;s menu (from Fantastic, or whatever the default was), it crashes with the same error.  Not a drastic issue for me personally, as the setting change does stick on restart, but would be nice to get that fixed in the same way if possible.</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+
+    </div>
+  
+    <div class="bottomPaginationV2Block "></div>
+    
+  </div>
+  
+</div>
+
+<!-- end forum topic show - views/forem/topics/show.html.erb -->
+
+<div class='clearBoth'></div>
+</div>
+<!-- /.pageInt -->
+<div class='clearBoth'>&nbsp;</div>
+</div>
+<!-- /#content -->
+<div class='clearBoth'></div>
+<section>
+<div id='footer'>
+<div class='pageInt'>
+<div class='minorRightColumn'>
+<ul class='navbar'>
+<li>
+<a href="http://beta.gameplay.gestureworks.com/bug_reports/new/">Bug Report?</a>
+</li>
+<li>
+<a href='http://gestureworks.com/legal' target='_blank'>Legal &nbsp;/&nbsp; Terms Of Use</a>
+</li>
+</ul>
+<div class='clearBoth'>
+<!-- clearing div -->
+</div>
+<ul class='socialMedia'>
+<li class='facebook fadeHover'>
+<a href='https://www.facebook.com/gwgameplay' target='_blank'>
+<!-- facebook icon from sprite included as background -->
+</a>
+</li>
+<li class='tumblr fadeHover'>
+<a href='http://windows8touch.tumblr.com/' target='_blank'>
+<!-- tumblr icon from sprite included as background -->
+</a>
+</li>
+<li class='twitter fadeHover'>
+<a href='https://twitter.com/gestureworks' target='_blank'>
+<!-- twitter icon from sprite included as background -->
+</a>
+</li>
+</ul>
+</div>
+<!-- /.minorRightColumn -->
+<div class='minorLeftColumn'>
+<ul class='navbar'>
+<li class='hidden'><li><a href="http://beta.gameplay.gestureworks.com/virtual_controllers" class=" ">Virtual Controllers</a></li></li>
+<li class='fadeHover first'>
+<a href="http://beta.gameplay.gestureworks.com/how-it-works">How It Works</a></li>
+
+<li class='active fadeHover'>
+<a href="http://beta.gameplay.gestureworks.com/forums">Forum</a>
+</li>
+</ul>
+
+</div>
+<!-- /.minorLeftColumn -->
+<div class='majorLeftColumn'>
+<div id='shareThisExtWrapper' style='height:22px;overflow:hidden;margin:0 0 17px -4px;'>
+<div id='shareThisIntWrapper' style='position:relative;top:-51px;'>
+<span class='st_facebook_vcount' displayText='Facebook'></span>
+<span class='st_twitter_vcount' displayText='Tweet'></span>
+<span class='st_googleplus_vcount' displayText='Google +'></span>
+<!-- restore three lines above when out of beta and remove three lines below -->
+</div>
+</div>
+<!-- /#shareThisWrapper -->
+<a href='http://gestureworks.com' target='_blank'>
+<img alt='GestureWorks' class='gwFooterLogo' src='../../../assets/gwlogo-255x50.png'>
+</a>
+<p>
+&copy; 2014 Ideum. All rights reserved.
+<a href='http://ideum.com'>Ideum</a>
+and
+<a href='http://gestureworks.com'>GestureWorks</a>
+are trademarks of Ideum, Inc.
+All other trademarks are property of their respective owners in the US and other countries.
+</p>
+</div>
+<!-- /.majorRightColumn -->
+</div>
+<!-- /.pageInt -->
+</div>
+</section>
+<script src="http://ws.sharethis.com/button/buttons.js" type="text/javascript"></script>
+<script>
+  if (typeof stLight === 'object') { // check for successful load
+    stLight.options({
+      publisher: "5a795834-a61b-44a5-b584-d96688b291d5",
+      doNotHash: false,
+      doNotCopy: false,
+      hashAddressBar: false
+    });
+  }
+</script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-198125-25', 'gestureworks.com');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+<!--[if lt IE 7 ]>
+<script src="/assets/dd_belatedpng-0a9c5a9e09b396bbdf7e543276b431fe.js" type="text/javascript"></script>
+<script>
+  DD_belatedPNG.fix('img, .png_bg');
+</script>
+<![endif]-->
+<script src="https://js.stripe.com/v2/" type="text/javascript"></script>
+<script>
+  Stripe.setPublishableKey('pk_live_FF37ehFAHbiZUcyO98PFcUzR');
+</script>
+<script src="../../../assets/application-44add310ad30fcd5838e18181051dac9.js" type="text/javascript"></script>
+
+<script>
+  _domReadyQueue.forEach($);
+  delete _domReadyQueue;
+</script>
+</body>
+</html>

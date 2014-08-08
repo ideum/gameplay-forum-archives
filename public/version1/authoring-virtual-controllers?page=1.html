@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html id='webView'>
+<head>
+<meta charset='utf-8'>
+<!--[if IE]>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-2.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"330b5cbcfa","applicationID":"2484637","transactionName":"eltdTBMMWVoAFhZSWEtRXhcHDEdDCBcWR19WQw==","queueTime":0,"applicationTime":1569,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-411.min.js"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({D5DuLP:[function(t,n){function e(t,n){var e=r[t];return e?e.apply(this,n):(o[t]||(o[t]=[]),void o[t].push(n))}var r={},o={};n.exports=e,e.queues=o,e.handlers=r},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&p&&p.body){l.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=p.createElement("script");n.src=l.proto+t.agent,p.body.appendChild(n)}}function r(){"complete"===p.readyState&&o()}function o(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),u=window,p=u.document,s="addEventListener",c="attachEvent",f=(""+location).split("?")[0],l=n.exports={offset:a(),origin:f,features:[]};p[s]?(p[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(p[c]("onreadystatechange",r),u[c]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);</script>
+<meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;' name='viewport'>
+<![endif]-->
+<title>GestureWorks Gameplay</title>
+<!-- html5 boilerplate faster page load hack - added to increase page load performance -->
+<!--[if IE]>  <![endif]-->
+<link content='https://gameplay.gestureworks.com/gameplay_forums/authoring-virtual-controllers?page=1' rel='canonical'>
+<meta content='article' name='og:type' property='og:type'>
+<meta content='GestureWorks Gameplay' name='og:title' property='og:title'>
+<meta content='GestureWorks Gameplay' name='og:site_name' property='og:site_name'>
+<meta content='https://gameplay.gestureworks.com/gameplay_forums/authoring-virtual-controllers?page=1' name='og:url' property='og:url'>
+<!-- using default image -->
+<meta content='https://gameplay.gestureworks.com/assets/social_gestureworks_gameplay-ffc77dabe8528a59365009a4c4edbbf5.jpg' name='og:image' property='og:image'>
+<!-- using default description -->
+<meta content='Dozens of pre-built Virtual Controllers come with GestureWorks Gameplay. The software also includes an easy-to-use authoring tool allowing you to build (and share) your own controllers for just about any Windows-based game or application.' name='og:description' property='og:description'>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="TCbQCjEfWBtngSk+uG4vlr7aNnSDMVBmX0XPU2Xnb8I=" name="csrf-token" />
+
+<link href="http://gesturekey-gameplay.dev/blog/feed.rss?max_results=50" rel="alternate" title="GestureWorks Gameplay Blog Feed" type="application/rss+xml" />
+<link href="../assets/application-a860e8604004ef6acfe8d0717628e56c.css" media="all" rel="stylesheet" type="text/css" />
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/2.1.0/es5-shim.min.js" type="text/javascript"></script>
+<script>
+  document.createElement('ng-include');
+  document.createElement('ng-pluralize');
+  document.createElement('ng-view');
+  document.createElement('pagination');
+</script>
+<![endif]-->
+<script src="../assets/modernizr-min-b4e303bfcf93f58fdc3793a72ff25471.js" type="text/javascript"></script>
+<script>
+  var _domReadyQueue = [];
+  $ = function (fun) { _domReadyQueue.push(fun) }
+</script>
+</head>
+<body ng-app='GesturekeyGameplay'>
+<section>
+<div id='masthead'>
+<div id='loginBar'>
+<div class='pageExt'>
+<div id='loginBar'>
+<div class='pageExt'>
+<ul class='navbar'>
+<li class='textButton logIn fadeHover'><a href="https://gameplay.gestureworks.com/users/sign_in">Sign in</a></li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+<div id='banner'>
+<div class='pageInt'>
+<a href="https://gameplay.gestureworks.com/virtual_controllers" class="block fadeHover"><header>
+<h1>GestureWorks GamePlay</h1>
+<h2>Touch controls for your favorite games.</h2>
+</header>
+</a></div>
+</div>
+<div id='navigation'>
+<div class='pageInt'>
+<ul class='navbar'>
+<li class='fadeHover'>
+<a href="https://gameplay.gestureworks.com/virtual_controllers">Virtual Controllers</a>
+</li>
+<li class='fadeHover first'>
+<a href="https://gameplay.gestureworks.com/how-it-works">How It Works</a></li>
+<li class='fadeHover '>
+<a href="https://gameplay.gestureworks.com/blog">Blog</a></li>
+<li class='fadeHover '>
+<a href="https://gameplay.gestureworks.com/gallery">Media Gallery</a></li>
+
+<li class='active fadeHover'>
+<a href="https://gameplay.gestureworks.com/forums">Forum</a>
+</li>
+</ul>
+
+<div class='searchWrap'>
+</div>
+</div>
+</div>
+</div>
+<div class='clearBoth'></div>
+</section>
+
+<div id='content'>
+<div class='pageInt'>
+<div class='flash'></div>
+<!-- begin forum show - views/forem/forums/show.html.erb -->
+
+<!-- begin forem head partial - views/forem/forums/_head.html.erb -->
+
+<div id='forum' class="allowForPagination">
+  <h1>
+    <a href="index.html">Forums</a> &gt;
+    <a href="categories/getting-started-with-gameplay.html">Getting Started with Gameplay</a> &gt;
+    <a href="authoring-virtual-controllers.html">Authoring Virtual Controllers</a>
+  </h1>
+  
+  <!-- because of design, this description was removed - we may need to revisit this -->
+  <!-- <span id='description'><p>Discuss building your own Virtual Controllers, overlays, global gestures and sensors, and any problems you may come across that require assistance.</p>
+</span> -->
+  
+  <menu id='forum_topic_links'>
+
+      <form class="searchWrap version2 floatRight" action="https://gameplay.gestureworks.com/gameplay_forums/search" method="GET">
+        <input id="category" name="category" type="hidden" value="getting-started-with-gameplay" />
+        <input id="forum" name="forum" type="hidden" value="authoring-virtual-controllers" />
+        <input class="searchField" name="q" placeholder="Search..." type="search">
+        <input class="searchImg version2" id="searchButton" title="Go" type="submit" value="">
+      </form>
+  
+    
+  </menu>
+  
+</div>
+
+<section class="forumInternalPage">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+  
+      <div class="paddedBlock forumHeader">
+      
+        <div id='forums' class='forums subdued'>
+        
+          <!-- added logic to change 'forum' to 'topic' in header of forum when in 'topic' view -->
+            <div class="desc-and-last-post">Topic</div>
+          <div class="views-count">Views</div>
+          <div class="posts-count">Posts</div>
+          <div class="latest-post">Latest</div>
+          
+        </div><!-- /#forums .forums .subdued -->
+      
+      </div><!-- /.paddedBlock .forumHeader -->
+
+<!-- end forem head partial - views/forem/forums/_head.html.erb -->
+
+
+<div class="topPaginationBlock"><div class="pages">Pages:<div class="pagination"><span class="previous_page disabled">&laquo;</span> <em class="current">1</em> <a rel="next" href="authoring-virtual-controllers%3Fpage=2.html">2</a> <a class="next_page" rel="next" href="authoring-virtual-controllers%3Fpage=2.html">&raquo;</a></div></div></div>
+<div class="paddedBlock variant">
+  <table class='topics subdued' cellspacing='0'>
+    <tbody>
+      <!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic odd unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/second-sight.html">Second Sight !</a></div>
+    <div class="started-by">Started by Gavx</div>
+  </td>  
+  <td class="views-count">8</td>
+  <td class="posts-count">2</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/second-sight%3Fpage=1.html#post-1506">about 1 month  ago by PaperLuffy</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic even unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/getting-touch-to-emulate-normal-mouse.html">Getting touch to emulate normal mouse</a></div>
+    <div class="started-by">Started by gmoff01</div>
+  </td>  
+  <td class="views-count">37</td>
+  <td class="posts-count">11</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/getting-touch-to-emulate-normal-mouse%3Fpage=1.html#post-1475">2 months  ago by PaperLuffy</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic odd unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/bionic-commando-rearmed.html">Bionic Commando Rearmed</a></div>
+    <div class="started-by">Started by Gavx</div>
+  </td>  
+  <td class="views-count">13</td>
+  <td class="posts-count">2</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/bionic-commando-rearmed%3Fpage=1.html#post-1435">3 months  ago by ArcaneAvis</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic even unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/virtual-controllers-all-gone.html">Virtual Controllers all gone</a></div>
+    <div class="started-by">Started by tuivel</div>
+  </td>  
+  <td class="views-count">52</td>
+  <td class="posts-count">8</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/virtual-controllers-all-gone%3Fpage=1.html#post-1389">4 months  ago by myfire888</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic odd unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/right-mouse-button-1-finger-tap-modifier.html">Right Mouse Button 1 Finger Tap Modifier</a></div>
+    <div class="started-by">Started by Skrop</div>
+  </td>  
+  <td class="views-count">22</td>
+  <td class="posts-count">2</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/right-mouse-button-1-finger-tap-modifier%3Fpage=1.html#post-1277">4 months  ago by Gavx</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic even unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/thoughts-on-easier-controller-authoring.html">Thoughts on easier controller authoring</a></div>
+    <div class="started-by">Started by RainyDayHiker</div>
+  </td>  
+  <td class="views-count">30</td>
+  <td class="posts-count">2</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/thoughts-on-easier-controller-authoring%3Fpage=1.html#post-1044">7 months  ago by ArcaneAvis</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic odd unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/hold-tap-and-drag-dpad-gestures.html">Hold-Tap and Drag Dpad gestures</a></div>
+    <div class="started-by">Started by ettescotty</div>
+  </td>  
+  <td class="views-count">27</td>
+  <td class="posts-count">2</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/hold-tap-and-drag-dpad-gestures%3Fpage=1.html#post-1026">7 months  ago by ArcaneAvis</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic even unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/holdtap-gesture.html">HoldTap Gesture</a></div>
+    <div class="started-by">Started by KevinGrumble</div>
+  </td>  
+  <td class="views-count">40</td>
+  <td class="posts-count">3</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/holdtap-gesture%3Fpage=1.html#post-1025">7 months  ago by ettescotty</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic odd unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/nebulous-assignements-what-are-the-mouse-relative-inputs.html">Nebulous Assignements (What are the Mouse Relative inputs?)</a></div>
+    <div class="started-by">Started by ettescotty</div>
+  </td>  
+  <td class="views-count">39</td>
+  <td class="posts-count">3</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/nebulous-assignements-what-are-the-mouse-relative-inputs%3Fpage=1.html#post-1022">7 months  ago by ettescotty</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic even unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/let-touch-input-pass-through.html">Let touch input pass through?</a></div>
+    <div class="started-by">Started by Stargazer</div>
+  </td>  
+  <td class="views-count">40</td>
+  <td class="posts-count">2</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/let-touch-input-pass-through%3Fpage=1.html#post-1018">7 months  ago by ArcaneAvis</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic odd unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/what-does-joystick-do.html">what does joystick do?</a></div>
+    <div class="started-by">Started by masonw_3</div>
+  </td>  
+  <td class="views-count">62</td>
+  <td class="posts-count">3</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/what-does-joystick-do%3Fpage=1.html#post-945">8 months  ago by masonw_3</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic even unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/authoring-issue.html">Authoring issue</a></div>
+    <div class="started-by">Started by Xanifur</div>
+  </td>  
+  <td class="views-count">26</td>
+  <td class="posts-count">3</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/authoring-issue%3Fpage=1.html#post-916">8 months  ago by Xanifur</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic odd unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/we-need-a-video-tutorial-guide-to-set-up-controls-on-youtube.html">We need a video tutorial guide to set up controls on youtube.</a></div>
+    <div class="started-by">Started by cyberguy</div>
+  </td>  
+  <td class="views-count">40</td>
+  <td class="posts-count">3</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/we-need-a-video-tutorial-guide-to-set-up-controls-on-youtube%3Fpage=1.html#post-849">9 months  ago by ArcaneAvis</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic even unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/controllers-don-t-appear.html">Controllers Don&#x27;t Appear</a></div>
+    <div class="started-by">Started by qwasz123</div>
+  </td>  
+  <td class="views-count">327</td>
+  <td class="posts-count">17</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/controllers-don-t-appear%3Fpage=1.html#post-817">9 months  ago by naopad</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic odd unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/can-i-copy-an-existing-layout-to-a-new-one.html">Can I copy an existing layout to a new one?</a></div>
+    <div class="started-by">Started by lmn8r</div>
+  </td>  
+  <td class="views-count">26</td>
+  <td class="posts-count">2</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/can-i-copy-an-existing-layout-to-a-new-one%3Fpage=1.html#post-741">9 months  ago by naopad</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic even unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/ui-on-surface-pro.html">UI On Surface Pro</a></div>
+    <div class="started-by">Started by Raven</div>
+  </td>  
+  <td class="views-count">271</td>
+  <td class="posts-count">10</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/ui-on-surface-pro%3Fpage=1.html#post-683">9 months  ago by marsh</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic odd unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/how-does-accelerometer-work.html">How DOES Accelerometer Work?</a></div>
+    <div class="started-by">Started by marauderz</div>
+  </td>  
+  <td class="views-count">69</td>
+  <td class="posts-count">6</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/how-does-accelerometer-work%3Fpage=1.html#post-658">9 months  ago by naopad</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic even unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/dpad-and-joystck-missing-in-vc-for-the-wolf-among-us-touch-commands-being-intercepted.html">Dpad and joystck missing in VC for The Wolf Among us + touch commands being intercepted?</a></div>
+    <div class="started-by">Started by chrisbardon</div>
+  </td>  
+  <td class="views-count">38</td>
+  <td class="posts-count">3</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/dpad-and-joystck-missing-in-vc-for-the-wolf-among-us-touch-commands-being-intercepted%3Fpage=1.html#post-611">10 months  ago by chrisbardon</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic odd unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/feature-request-homebutton-opacity.html">Feature Request: HomeButton opacity</a></div>
+    <div class="started-by">Started by RainyDayHiker</div>
+  </td>  
+  <td class="views-count">21</td>
+  <td class="posts-count">2</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/feature-request-homebutton-opacity%3Fpage=1.html#post-528">10 months  ago by ArcaneAvis</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+<!-- begin forum topic partial - views/forem/topics/_topic.html.erb -->
+
+
+<tr class="topic even unlocked unpinned">
+  <!-- because of design, 'icon' and 'pin icon' were removed - we may need to revisit this -->
+  <td class='icon'>
+    <!-- 
+    -->
+    <!-- 
+    -->
+  </td>
+  <td class="byline">
+    <super></super>
+    <div class="subject"><a href="authoring-virtual-controllers/topics/time-frame.html">time  frame</a></div>
+    <div class="started-by">Started by kipor</div>
+  </td>  
+  <td class="views-count">79</td>
+  <td class="posts-count">7</td>
+  <td class="latest-post">
+    <a href="authoring-virtual-controllers/topics/time-frame%3Fpage=1.html#post-473">10 months  ago by kipor</a>  </td>
+</tr>
+
+<!-- end forum topic partial - views/forem/topics/_topic.html.erb -->
+
+    </tbody>
+  </table>
+</div>
+<div class="bottomPaginationBlock"><div class="pages">Pages:<div class="pagination"><span class="previous_page disabled">&laquo;</span> <em class="current">1</em> <a rel="next" href="authoring-virtual-controllers%3Fpage=2.html">2</a> <a class="next_page" rel="next" href="authoring-virtual-controllers%3Fpage=2.html">&raquo;</a></div></div></div>
+
+</div></div></div></section>
+
+<!-- end forum show - views/forem/forums/show.html.erb -->
+<div class='clearBoth'></div>
+</div>
+<!-- /.pageInt -->
+<div class='clearBoth'>&nbsp;</div>
+</div>
+<!-- /#content -->
+<div class='clearBoth'></div>
+<section>
+<div id='footer'>
+<div class='pageInt'>
+<div class='minorRightColumn'>
+<ul class='navbar'>
+<li>
+<a href="https://gameplay.gestureworks.com/bug_reports/new/">Bug Report?</a>
+</li>
+<li>
+<a href='http://gestureworks.com/legal' target='_blank'>Legal &nbsp;/&nbsp; Terms Of Use</a>
+</li>
+</ul>
+<div class='clearBoth'>
+<!-- clearing div -->
+</div>
+<ul class='socialMedia'>
+<li class='facebook fadeHover'>
+<a href='https://www.facebook.com/gwgameplay' target='_blank'>
+<!-- facebook icon from sprite included as background -->
+</a>
+</li>
+<li class='tumblr fadeHover'>
+<a href='http://windows8touch.tumblr.com/' target='_blank'>
+<!-- tumblr icon from sprite included as background -->
+</a>
+</li>
+<li class='twitter fadeHover'>
+<a href='https://twitter.com/gestureworks' target='_blank'>
+<!-- twitter icon from sprite included as background -->
+</a>
+</li>
+</ul>
+</div>
+<!-- /.minorRightColumn -->
+<div class='minorLeftColumn'>
+<ul class='navbar'>
+<li class='hidden'><li><a href="https://gameplay.gestureworks.com/virtual_controllers" class=" ">Virtual Controllers</a></li></li>
+<li class='fadeHover first'>
+<a href="https://gameplay.gestureworks.com/how-it-works">How It Works</a></li>
+<li class='fadeHover '>
+<a href="https://gameplay.gestureworks.com/blog">Blog</a></li>
+<li class='fadeHover '>
+<a href="https://gameplay.gestureworks.com/gallery">Media Gallery</a></li>
+
+<li class='active fadeHover'>
+<a href="https://gameplay.gestureworks.com/forums">Forum</a>
+</li>
+</ul>
+
+</div>
+<!-- /.minorLeftColumn -->
+<div class='majorLeftColumn'>
+<div id='shareThisExtWrapper' style='height:22px;overflow:hidden;margin:0 0 17px -4px;'>
+<div id='shareThisIntWrapper' style='position:relative;top:-51px;'>
+<span class='st_facebook_vcount' displayText='Facebook'></span>
+<span class='st_twitter_vcount' displayText='Tweet'></span>
+<span class='st_googleplus_vcount' displayText='Google +'></span>
+<!-- restore three lines above when out of beta and remove three lines below -->
+</div>
+</div>
+<!-- /#shareThisWrapper -->
+<a href='http://gestureworks.com' target='_blank'>
+<img alt='GestureWorks' class='gwFooterLogo' src='../assets/gwlogo-255x50.png'>
+</a>
+<p>
+&copy; 2014 Ideum. All rights reserved.
+<a href='http://ideum.com'>Ideum</a>
+and
+<a href='http://gestureworks.com'>GestureWorks</a>
+are trademarks of Ideum, Inc.
+All other trademarks are property of their respective owners in the US and other countries.
+</p>
+</div>
+<!-- /.majorRightColumn -->
+</div>
+<!-- /.pageInt -->
+</div>
+</section>
+<script src="https://ws.sharethis.com/button/buttons.js" type="text/javascript"></script>
+<script>
+  if (typeof stLight === 'object') { // check for successful load
+    stLight.options({
+      publisher: "5a795834-a61b-44a5-b584-d96688b291d5",
+      doNotHash: false,
+      doNotCopy: false,
+      hashAddressBar: false
+    });
+  }
+</script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-198125-25', 'gestureworks.com');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+<!--[if lt IE 7 ]>
+<script src="/assets/dd_belatedpng-c160b7760fba930aea6de0fd2313bade.js" type="text/javascript"></script>
+<script>
+  DD_belatedPNG.fix('img, .png_bg');
+</script>
+<![endif]-->
+<script src="https://js.stripe.com/v2/" type="text/javascript"></script>
+<script>
+  Stripe.setPublishableKey('pk_live_FF37ehFAHbiZUcyO98PFcUzR');
+</script>
+<script src="../assets/application-8d226ea9171ba505bef24fd6fcfd00ef.js" type="text/javascript"></script>
+
+<script>
+  _domReadyQueue.forEach($);
+  delete _domReadyQueue;
+</script>
+</body>
+</html>

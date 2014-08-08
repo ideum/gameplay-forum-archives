@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html id='webView'>
+<head>
+<meta charset='utf-8'>
+<!--[if IE]>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;' name='viewport'>
+<![endif]-->
+<title>GestureWorks Gameplay</title>
+<!-- html5 boilerplate faster page load hack - added to increase page load performance -->
+<!--[if IE]>  <![endif]-->
+<link content='http://beta.gameplay.gestureworks.com/gameplay_forums/authoring-virtual-controllers/topics/first-impression' rel='canonical'>
+<meta content='article' name='og:type' property='og:type'>
+<meta content='GestureWorks Gameplay' name='og:title' property='og:title'>
+<meta content='GestureWorks Gameplay' name='og:site_name' property='og:site_name'>
+<meta content='http://beta.gameplay.gestureworks.com/gameplay_forums/authoring-virtual-controllers/topics/first-impression' name='og:url' property='og:url'>
+<!-- using default image -->
+<meta content='http://beta.gameplay.gestureworks.com/assets/social_gestureworks_gameplay-6557c71a3551572139ae39d500106eff.jpg' name='og:image' property='og:image'>
+<!-- using default description -->
+<meta content='Dozens of pre-built Virtual Controllers come with GestureWorks Gameplay. The software also includes an easy-to-use authoring tool allowing you to build (and share) your own controllers for just about any Windows-based game or application.' name='og:description' property='og:description'>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="OHDdeQfdxsWSrZaL9MW4eII2BrkT9qqlLFXV57l3/T8=" name="csrf-token" />
+
+<link href="http://gesturekey-gameplay.dev/blog/feed.rss?max_results=50" rel="alternate" title="GestureWorks Gameplay Blog Feed" type="application/rss+xml" />
+<link href="../../../assets/application-3e07b0c29096720a9cfac34a1638dbb7.css" media="all" rel="stylesheet" type="text/css" />
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/2.1.0/es5-shim.min.js" type="text/javascript"></script>
+<script>
+  document.createElement('ng-include');
+  document.createElement('ng-pluralize');
+  document.createElement('ng-view');
+  document.createElement('pagination');
+</script>
+<![endif]-->
+<script src="../../../assets/modernizr-min-0657f20591a634e4699eba62bbb23900.js" type="text/javascript"></script>
+<script>
+  var _domReadyQueue = [];
+  $ = function (fun) { _domReadyQueue.push(fun) }
+</script>
+</head>
+<body ng-app='GesturekeyGameplay'>
+<section>
+<div id='masthead'>
+<div id='loginBar'>
+<div class='pageExt'>
+<div id='loginBar'>
+<div class='pageExt'>
+<ul class='navbar'>
+<li class='textButton logIn fadeHover'><a href="http://beta.gameplay.gestureworks.com/users/sign_in">Sign in</a></li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+<div id='banner'>
+<div class='pageInt'>
+<a href="http://beta.gameplay.gestureworks.com/virtual_controllers" class="block fadeHover"><header>
+<h1>GestureWorks GamePlay</h1>
+<h2>Touch controls for your favorite games.</h2>
+</header>
+</a></div>
+</div>
+<div id='navigation'>
+<div class='pageInt'>
+<ul class='navbar'>
+<li class='fadeHover'>
+<a href="http://beta.gameplay.gestureworks.com/virtual_controllers">Virtual Controllers</a>
+</li>
+<li class='fadeHover first'>
+<a href="http://beta.gameplay.gestureworks.com/how-it-works">How It Works</a></li>
+
+<li class='active fadeHover'>
+<a href="http://beta.gameplay.gestureworks.com/forums">Forum</a>
+</li>
+</ul>
+
+<div class='searchWrap'>
+</div>
+</div>
+</div>
+</div>
+<div class='clearBoth'></div>
+</section>
+
+<div id='content'>
+<div class='pageInt'>
+<div class='flash'></div>
+<!-- begin forum topic show - views/forem/topics/show.html.erb -->
+
+  <div id='topic' class='unlocked'>
+  
+    <!-- begin forum topic head partial - views/forem/topics/_head.html.erb -->
+
+<div id='forum' class="topics">
+
+  <h1><a href="../../index.html">Forums</a> &raquo; <a href="../../authoring-virtual-controllers.html">Authoring Virtual Controllers</a> &raquo; First impression</h1>
+  
+  
+<!-- end forum topic head partial - views/forem/topics/_head.html.erb -->
+
+    
+    <form class="searchWrap version2 floatRight" action="http://beta.gameplay.gestureworks.com/gameplay_forums/search" method="GET">
+      <input id="category" name="category" type="hidden" value="getting-started-with-gameplay" />
+      <input id="forum" name="forum" type="hidden" value="authoring-virtual-controllers" />
+      <input class="searchField" name="q" placeholder="Search..." type="search">
+      <input class="searchImg version2" id="searchButton" title="Go" type="submit" value="">
+    </form>
+  
+    <menu id='forum_topic_links'>
+    </menu>
+    
+    <div class="moderationBlock nonAdmin">
+      
+      
+      
+      <div class="topPaginationBlock"><div class="pages">Pages:<div class="pagination"><span class="previous_page disabled">&laquo;</span> <em class="current">1</em> <a rel="next" href="first-impression%3Fpage=2.html">2</a> <a class="next_page" rel="next" href="first-impression%3Fpage=2.html">&raquo;</a></div></div></div>
+    
+    </div><!-- /.moderationBlock -->
+  
+    <div id='posts'>
+      <!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-7'></a>
+        <div id='post_1' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/7e3a90b4d9204b1c603c75df4651d4d6?s=60" /></div>
+            <div class='username'>
+              2Elemental
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-7'>
+            <time class="postTime" style="float:left;" datetime="2014-05-28 21:03:49">2 months  ago</time>
+          </a> 
+          
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>I&#39;ve just downloaded V2 and I&#39;m impressed! Both the config UI and in game perform very noticeably better! So far I have only found one minor bug, being that the button &quot;Clear Canvas&quot; does not clear the theme/background when only ticking the &quot;Clear Background Image&quot;-box. Will keep you posted and will upload my tested controllers during the next couple of days!</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-8'></a>
+        <div id='post_2' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/0a99334905f5faabca1c24c6244dd514?s=60" /></div>
+            <div class='username'>
+              john
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-8'>
+            <time class="postTime" style="float:left;" datetime="2014-05-28 21:22:21">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-7">In reply to 2Elemental</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Thanks for the feedback! Are you referring to the themed background images? The &quot;delete background image&quot; field was meant for custom user-created images but you bring up a good point. If the user doesn&#39;t like the background image that ships with the theme, maybe they should be able to get rid of it. </p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-9'></a>
+        <div id='post_3' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/7e3a90b4d9204b1c603c75df4651d4d6?s=60" /></div>
+            <div class='username'>
+              2Elemental
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-9'>
+            <time class="postTime" style="float:left;" datetime="2014-05-28 21:26:48">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-8">In reply to john</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Yes, that&#39;s what I&#39;m referring to. I was actually looking for a way to clear the applied theme, and thought I could do it with &quot;Clear Canvas&quot;. But yes, it might indeed be nice to be able to get rid of a themed background as well.</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-12'></a>
+        <div id='post_4' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/0a99334905f5faabca1c24c6244dd514?s=60" /></div>
+            <div class='username'>
+              john
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-12'>
+            <time class="postTime" style="float:left;" datetime="2014-05-28 21:44:48">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-9">In reply to 2Elemental</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>You probably figured this out by now but I&#39;ll post for the benefit of others who may come along.</p>
+
+<p>You can clear the applied theme by selecting the &quot;Default&quot; theme from the menu. </p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-13'></a>
+        <div id='post_5' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/7e3a90b4d9204b1c603c75df4651d4d6?s=60" /></div>
+            <div class='username'>
+              2Elemental
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-13'>
+            <time class="postTime" style="float:left;" datetime="2014-05-28 21:47:26">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-12">In reply to john</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Nope didn&#39;t look thoroughly enough it seems, thanks for pointing that out!</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-14'></a>
+        <div id='post_6' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/7e3a90b4d9204b1c603c75df4651d4d6?s=60" /></div>
+            <div class='username'>
+              2Elemental
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-14'>
+            <time class="postTime" style="float:left;" datetime="2014-05-29 19:37:38">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-13">In reply to 2Elemental</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>I&#39;ve just tried the controller I used in V1 for Dead Island and this doesn&#39;t seem to work anymore.</p>
+
+<p>First, the gesture I mapped for MouseLook (simple drag) doesnt work anymore.
+Certain button mappings simply no longer respond, like for instance the &quot;loot&quot; key, but also the cursor keys in the menu. When pressing the button that maps to ESC, sometimes I get booted to the start menu, after which I can go via desktop back in game. Also, the game suddenly plays very choppy when ran with GWG, but runs fine without. I am using a Surface Pro 2 with 256Gb SSD and 8Gb RAM.</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-15'></a>
+        <div id='post_7' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/7e3a90b4d9204b1c603c75df4651d4d6?s=60" /></div>
+            <div class='username'>
+              2Elemental
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-15'>
+            <time class="postTime" style="float:left;" datetime="2014-05-29 19:59:16">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-14">In reply to 2Elemental</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>I seem to have similar issues with Borderlands 2. Overall button useage is ok here, but mouse look is completely messed up. It does work here, in contradiction tomDead Island, where it doesn&#39;t, but it is not usable as it is waaaaay too slow, even with mouse sensitivity all the way up. Another thing I noticed is that using the launch button in GWG seems to spawn these games multiple times, while I&#39;m very sure I only used the button once...</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-16'></a>
+        <div id='post_8' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/f39f63ae69204c0c27e9dc46929d5f28?s=60" /></div>
+            <div class='username'>
+              ryan
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-16'>
+            <time class="postTime" style="float:left;" datetime="2014-05-29 20:01:21">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-14">In reply to 2Elemental</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Hey 2Elemental if you dont mind could you submit a bug report about this issue, with the vc file(s) attached. That way we can see exactly what is happening and test the old vc to come up with a solution asap! </p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-18'></a>
+        <div id='post_9' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/7e3a90b4d9204b1c603c75df4651d4d6?s=60" /></div>
+            <div class='username'>
+              2Elemental
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-18'>
+            <time class="postTime" style="float:left;" datetime="2014-05-30 07:22:44">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-16">In reply to ryan</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>I&#39;ve just submitted a bug report. I&#39;ve also got some additional feedback for the GWG config UI:</p>
+
+<ul>
+<li>Sliders like scale, sensitivity, opacity and the like are now bigger, but the up/down arrows are unusable on a touch device. Please provide a more touch-friendly approach for this</li>
+<li>Please add more items to the Glyph selection, like directional arrows, Function Keys and such</li>
+<li>Also please provide a Copy function to copy a button with its characteristics like opacity and scale</li>
+<li>When selecting multiple buttons and changing opacity, only some will get the opacity you selected, others will not and yet others will get a random value it seems</li>
+<li>Switches don&#39;t always work as expected. In Borderlands 2 for instance, I use a switch for crouch. Toggling on works fine, but off doesn&#39;t. I need to Jump to get out of crouch mode.</li>
+<li>What would be cool is that when using the in-game edit mode, you would allow to re-assign keys and copy buttons as well, so that building a new controller doesn&#39;t require as much restarting of the game. Also, when returning from a game after having edited in-game, just reload the controller instead of notifying of in-game changes.</li>
+</ul>
+
+<p>I will keep this flow running as I am testing my games/controllers. Keep up the good work guys, the responsiveness of GWG in game has improved a lot. In the previous version I couldn&#39;t play Borderlands 2 at all, now only the aiming needs some tweaking. Only thing I struggle a lot with is that for moving you need a pretty high sensitivity, but for aiming it might be a lot lower. And the gradual sensitivity of the D-Pad doesn&#39;t really help all that well (for me).</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-20'></a>
+        <div id='post_10' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/f39f63ae69204c0c27e9dc46929d5f28?s=60" /></div>
+            <div class='username'>
+              ryan
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-20'>
+            <time class="postTime" style="float:left;" datetime="2014-05-30 15:14:30">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-18">In reply to 2Elemental</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Thanks for the feedback! I will look into the bug report today to see what is going on. As for all the points you listed, they are great! In my own testing I have come to many of the same conclusions in pretty much all the points. I will test out the toggle button though, as I have not ran into this problem yet. The last point is a little tricky with the way the system is set up currently. Thanks again!</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-21'></a>
+        <div id='post_11' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/f39f63ae69204c0c27e9dc46929d5f28?s=60" /></div>
+            <div class='username'>
+              ryan
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-21'>
+            <time class="postTime" style="float:left;" datetime="2014-05-30 19:09:46">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-20">In reply to ryan</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>So this is inconvenient, but could you resubmit the bug report, but this time with the vc file in it as well as the log too (just in case. You can get that by clicking little i in corner; &quot;view logs&quot;.) It is silly but the beta website is currently set up so when you submit a controller it has all information except the vc file, so basically I could not access it unless i approved the controller. Sorry for how long it is taking to test this. I downloaded both games in the mean time! </p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-22'></a>
+        <div id='post_12' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/7e3a90b4d9204b1c603c75df4651d4d6?s=60" /></div>
+            <div class='username'>
+              2Elemental
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-22'>
+            <time class="postTime" style="float:left;" datetime="2014-05-31 05:23:17">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-21">In reply to ryan</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>No problem, I will resubmit it later today, I&#39;m just not running my Surface right now. I have some new feedback for you as well. Yesterday  night I retested Dead Island, Borderlands 2 and even State of Decay, and rebuilt my controllers from scratch. In all 3 games, Mouse Look does not work and the switch problem is still there in Borderlands 2, but I&#39;ve been able to rebuild the controllers with the D-Pad control and they work awesome! I think I have submitted all 3 controllers for you guys to have a look at, but later today I will submit a bug report with all 3 VCs attached...</p>
+
+<p>EDIT: I submitted a new bug report, but I was unable to upload a zip with all controllers for the Virtual Controller upload. I simply got a page not found error. Uploading just one controller did work. As a suggestion, could you maybe make a Bug Report in the GWG UI, where you can simply submit logs and select the controllers to submit? A lot easier and user-friendly :)</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-23'></a>
+        <div id='post_13' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/7e3a90b4d9204b1c603c75df4651d4d6?s=60" /></div>
+            <div class='username'>
+              2Elemental
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-23'>
+            <time class="postTime" style="float:left;" datetime="2014-05-31 05:51:35">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-22">In reply to 2Elemental</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>What would also be awesome is if you guys would take Windows Phone seriously and create a client for that as well. I&#39;d love to be able to use my windows phone as a controller and not always have to drag that bulky xbox controller around. Thanks in advance!</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-24'></a>
+        <div id='post_14' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/88d3dab08b6f230a853856d650c20e51?s=60" /></div>
+            <div class='username'>
+              norin
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-24'>
+            <time class="postTime" style="float:left;" datetime="2014-05-31 12:37:01">2 months  ago</time>
+          </a> 
+          
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Hmm, how gamepad emulation work? I try it in Bastion, but game doesn&#39;t  see gampad.</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-25'></a>
+        <div id='post_15' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/7e3a90b4d9204b1c603c75df4651d4d6?s=60" /></div>
+            <div class='username'>
+              2Elemental
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-25'>
+            <time class="postTime" style="float:left;" datetime="2014-05-31 15:12:00">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-24">In reply to norin</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Well, I actually don&#39;t know if Bastion is supported, but maybe you should start a new thread about game compatibility?</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-27'></a>
+        <div id='post_16' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/7e3a90b4d9204b1c603c75df4651d4d6?s=60" /></div>
+            <div class='username'>
+              2Elemental
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-27'>
+            <time class="postTime" style="float:left;" datetime="2014-05-31 17:23:21">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-23">In reply to 2Elemental</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>I&#39;ve tried to use a virtual controller with Dolphin Emulator for GameCube and Wii.</p>
+
+<p>When using the x86 version and DirectX11, I am able to visualize the controls and sometimes play with them. There&#39;s some times where the controls visualize, but I can&#39;t press anything. When I close Dolphin and GWG, start GWG again and use the green Launch button for my Dolphin emulator again, it works.</p>
+
+<p>Any chance you could have a look into this? It would be super awesome to be able to play these games on my Surface Pro 2.</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-28'></a>
+        <div id='post_17' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/965feeb2dded93b263369bee85bd8e95?s=60" /></div>
+            <div class='username'>
+              Akupernog
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-28'>
+            <time class="postTime" style="float:left;" datetime="2014-06-01 03:42:38">2 months  ago</time>
+          </a> 
+          
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Thank you for not standing in place and develop the project.</p>
+
+<p>Very nice that disappeared bugs with buttons that were too close to the edge of the screen, or came for him.
+There are a few requests:</p>
+
+<p>Make for mobile applications download themes optional. As it weighs too much.</p>
+
+<p>Very lacking one management review of the mouse but mutable (to him it was possible to hang up keys walk for example).</p>
+
+<p>Thanks.</p>
+
+<p>(Sorry, written in the translator)</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-31'></a>
+        <div id='post_18' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/77127c21bd05bd8d25a2ce556f79a8a4?s=60" /></div>
+            <div class='username'>
+              kyle
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-31'>
+            <time class="postTime" style="float:left;" datetime="2014-06-02 15:44:40">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-28">In reply to Akupernog</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Akupernog,</p>
+
+<p>As the beta continues we are hoping to reduce the size of the applications. </p>
+
+<p>I am very sorry, but I do not understand your second request. Could you please rephrase the request?</p>
+
+<p>Thank you.</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-32'></a>
+        <div id='post_19' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/77127c21bd05bd8d25a2ce556f79a8a4?s=60" /></div>
+            <div class='username'>
+              kyle
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-32'>
+            <time class="postTime" style="float:left;" datetime="2014-06-02 16:04:08">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-22">In reply to 2Elemental</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>An in-application bug reporter is a good idea! We will be looking into including some form of automated bug reporting, but no promises - adding new features can introduce a myriad of issues.</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-33'></a>
+        <div id='post_20' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/f39f63ae69204c0c27e9dc46929d5f28?s=60" /></div>
+            <div class='username'>
+              ryan
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='first-impression.html#post-33'>
+            <time class="postTime" style="float:left;" datetime="2014-06-02 16:23:59">2 months  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="first-impression.html#post-32">In reply to kyle</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Phew! That was a lot of good feedback 2Elemental and Akupernog. As kyle said we are looking into making the files smaller, as for emulations: that is a tough one . A lot of the problems stem from the emulators themselves and how they interact with gwg. The fact that you got it to work is awesome and I encourage you to make a little thread sharing your experiences with them and the steps you take to get them to work, I am sure someone will find it super useful. In any case thank you so much for all the testing this last weekend! </p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+
+    </div>
+  
+    <div class="bottomPaginationV2Block "><div class="pages">Pages:<div class="pagination"><span class="previous_page disabled">&laquo;</span> <em class="current">1</em> <a rel="next" href="first-impression%3Fpage=2.html">2</a> <a class="next_page" rel="next" href="first-impression%3Fpage=2.html">&raquo;</a></div></div></div>
+    
+  </div>
+  
+</div>
+
+<!-- end forum topic show - views/forem/topics/show.html.erb -->
+
+<div class='clearBoth'></div>
+</div>
+<!-- /.pageInt -->
+<div class='clearBoth'>&nbsp;</div>
+</div>
+<!-- /#content -->
+<div class='clearBoth'></div>
+<section>
+<div id='footer'>
+<div class='pageInt'>
+<div class='minorRightColumn'>
+<ul class='navbar'>
+<li>
+<a href="http://beta.gameplay.gestureworks.com/bug_reports/new/">Bug Report?</a>
+</li>
+<li>
+<a href='http://gestureworks.com/legal' target='_blank'>Legal &nbsp;/&nbsp; Terms Of Use</a>
+</li>
+</ul>
+<div class='clearBoth'>
+<!-- clearing div -->
+</div>
+<ul class='socialMedia'>
+<li class='facebook fadeHover'>
+<a href='https://www.facebook.com/gwgameplay' target='_blank'>
+<!-- facebook icon from sprite included as background -->
+</a>
+</li>
+<li class='tumblr fadeHover'>
+<a href='http://windows8touch.tumblr.com/' target='_blank'>
+<!-- tumblr icon from sprite included as background -->
+</a>
+</li>
+<li class='twitter fadeHover'>
+<a href='https://twitter.com/gestureworks' target='_blank'>
+<!-- twitter icon from sprite included as background -->
+</a>
+</li>
+</ul>
+</div>
+<!-- /.minorRightColumn -->
+<div class='minorLeftColumn'>
+<ul class='navbar'>
+<li class='hidden'><li><a href="http://beta.gameplay.gestureworks.com/virtual_controllers" class=" ">Virtual Controllers</a></li></li>
+<li class='fadeHover first'>
+<a href="http://beta.gameplay.gestureworks.com/how-it-works">How It Works</a></li>
+
+<li class='active fadeHover'>
+<a href="http://beta.gameplay.gestureworks.com/forums">Forum</a>
+</li>
+</ul>
+
+</div>
+<!-- /.minorLeftColumn -->
+<div class='majorLeftColumn'>
+<div id='shareThisExtWrapper' style='height:22px;overflow:hidden;margin:0 0 17px -4px;'>
+<div id='shareThisIntWrapper' style='position:relative;top:-51px;'>
+<span class='st_facebook_vcount' displayText='Facebook'></span>
+<span class='st_twitter_vcount' displayText='Tweet'></span>
+<span class='st_googleplus_vcount' displayText='Google +'></span>
+<!-- restore three lines above when out of beta and remove three lines below -->
+</div>
+</div>
+<!-- /#shareThisWrapper -->
+<a href='http://gestureworks.com' target='_blank'>
+<img alt='GestureWorks' class='gwFooterLogo' src='../../../assets/gwlogo-255x50.png'>
+</a>
+<p>
+&copy; 2014 Ideum. All rights reserved.
+<a href='http://ideum.com'>Ideum</a>
+and
+<a href='http://gestureworks.com'>GestureWorks</a>
+are trademarks of Ideum, Inc.
+All other trademarks are property of their respective owners in the US and other countries.
+</p>
+</div>
+<!-- /.majorRightColumn -->
+</div>
+<!-- /.pageInt -->
+</div>
+</section>
+<script src="http://ws.sharethis.com/button/buttons.js" type="text/javascript"></script>
+<script>
+  if (typeof stLight === 'object') { // check for successful load
+    stLight.options({
+      publisher: "5a795834-a61b-44a5-b584-d96688b291d5",
+      doNotHash: false,
+      doNotCopy: false,
+      hashAddressBar: false
+    });
+  }
+</script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-198125-25', 'gestureworks.com');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+<!--[if lt IE 7 ]>
+<script src="/assets/dd_belatedpng-0a9c5a9e09b396bbdf7e543276b431fe.js" type="text/javascript"></script>
+<script>
+  DD_belatedPNG.fix('img, .png_bg');
+</script>
+<![endif]-->
+<script src="https://js.stripe.com/v2/" type="text/javascript"></script>
+<script>
+  Stripe.setPublishableKey('pk_live_FF37ehFAHbiZUcyO98PFcUzR');
+</script>
+<script src="../../../assets/application-44add310ad30fcd5838e18181051dac9.js" type="text/javascript"></script>
+
+<script>
+  _domReadyQueue.forEach($);
+  delete _domReadyQueue;
+</script>
+</body>
+</html>

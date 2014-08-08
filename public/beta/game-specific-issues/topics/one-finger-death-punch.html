@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html id='webView'>
+<head>
+<meta charset='utf-8'>
+<!--[if IE]>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;' name='viewport'>
+<![endif]-->
+<title>GestureWorks Gameplay</title>
+<!-- html5 boilerplate faster page load hack - added to increase page load performance -->
+<!--[if IE]>  <![endif]-->
+<link content='http://beta.gameplay.gestureworks.com/gameplay_forums/game-specific-issues/topics/one-finger-death-punch' rel='canonical'>
+<meta content='article' name='og:type' property='og:type'>
+<meta content='GestureWorks Gameplay' name='og:title' property='og:title'>
+<meta content='GestureWorks Gameplay' name='og:site_name' property='og:site_name'>
+<meta content='http://beta.gameplay.gestureworks.com/gameplay_forums/game-specific-issues/topics/one-finger-death-punch' name='og:url' property='og:url'>
+<!-- using default image -->
+<meta content='http://beta.gameplay.gestureworks.com/assets/social_gestureworks_gameplay-6557c71a3551572139ae39d500106eff.jpg' name='og:image' property='og:image'>
+<!-- using default description -->
+<meta content='Dozens of pre-built Virtual Controllers come with GestureWorks Gameplay. The software also includes an easy-to-use authoring tool allowing you to build (and share) your own controllers for just about any Windows-based game or application.' name='og:description' property='og:description'>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="OHDdeQfdxsWSrZaL9MW4eII2BrkT9qqlLFXV57l3/T8=" name="csrf-token" />
+
+<link href="http://gesturekey-gameplay.dev/blog/feed.rss?max_results=50" rel="alternate" title="GestureWorks Gameplay Blog Feed" type="application/rss+xml" />
+<link href="../../../assets/application-3e07b0c29096720a9cfac34a1638dbb7.css" media="all" rel="stylesheet" type="text/css" />
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/2.1.0/es5-shim.min.js" type="text/javascript"></script>
+<script>
+  document.createElement('ng-include');
+  document.createElement('ng-pluralize');
+  document.createElement('ng-view');
+  document.createElement('pagination');
+</script>
+<![endif]-->
+<script src="../../../assets/modernizr-min-0657f20591a634e4699eba62bbb23900.js" type="text/javascript"></script>
+<script>
+  var _domReadyQueue = [];
+  $ = function (fun) { _domReadyQueue.push(fun) }
+</script>
+</head>
+<body ng-app='GesturekeyGameplay'>
+<section>
+<div id='masthead'>
+<div id='loginBar'>
+<div class='pageExt'>
+<div id='loginBar'>
+<div class='pageExt'>
+<ul class='navbar'>
+<li class='textButton logIn fadeHover'><a href="http://beta.gameplay.gestureworks.com/users/sign_in">Sign in</a></li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+<div id='banner'>
+<div class='pageInt'>
+<a href="http://beta.gameplay.gestureworks.com/virtual_controllers" class="block fadeHover"><header>
+<h1>GestureWorks GamePlay</h1>
+<h2>Touch controls for your favorite games.</h2>
+</header>
+</a></div>
+</div>
+<div id='navigation'>
+<div class='pageInt'>
+<ul class='navbar'>
+<li class='fadeHover'>
+<a href="http://beta.gameplay.gestureworks.com/virtual_controllers">Virtual Controllers</a>
+</li>
+<li class='fadeHover first'>
+<a href="http://beta.gameplay.gestureworks.com/how-it-works">How It Works</a></li>
+
+<li class='active fadeHover'>
+<a href="http://beta.gameplay.gestureworks.com/forums">Forum</a>
+</li>
+</ul>
+
+<div class='searchWrap'>
+</div>
+</div>
+</div>
+</div>
+<div class='clearBoth'></div>
+</section>
+
+<div id='content'>
+<div class='pageInt'>
+<div class='flash'></div>
+<!-- begin forum topic show - views/forem/topics/show.html.erb -->
+
+  <div id='topic' class='unlocked'>
+  
+    <!-- begin forum topic head partial - views/forem/topics/_head.html.erb -->
+
+<div id='forum' class="topics">
+
+  <h1><a href="../../index.html">Forums</a> &raquo; <a href="../../game-specific-issues.html">Game-Specific Issues</a> &raquo; One Finger Death Punch</h1>
+  
+  
+<!-- end forum topic head partial - views/forem/topics/_head.html.erb -->
+
+    
+    <form class="searchWrap version2 floatRight" action="http://beta.gameplay.gestureworks.com/gameplay_forums/search" method="GET">
+      <input id="category" name="category" type="hidden" value="getting-started-with-gameplay" />
+      <input id="forum" name="forum" type="hidden" value="game-specific-issues" />
+      <input class="searchField" name="q" placeholder="Search..." type="search">
+      <input class="searchImg version2" id="searchButton" title="Go" type="submit" value="">
+    </form>
+  
+    <menu id='forum_topic_links'>
+    </menu>
+    
+    <div class="moderationBlock nonAdmin">
+      
+      
+      
+      <div class="topPaginationBlock"></div>
+    
+    </div><!-- /.moderationBlock -->
+  
+    <div id='posts'>
+      <!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-121'></a>
+        <div id='post_1' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/6f360b01db1337865a88d543dfe94e68?s=60" /></div>
+            <div class='username'>
+              YorkyPudsy
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='one-finger-death-punch.html#post-121'>
+            <time class="postTime" style="float:left;" datetime="2014-06-21 16:56:45">about 1 month  ago</time>
+          </a> 
+          
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>I&#39;m trying out a few of the games I had problems with on v1, so I&#39;m just gonna create a unique topic for each game that still exhibits problems in the beta if that&#39;s ok... to help keep discussions/possible solutions separate.</p>
+
+<p>My Test Device: Asus T100 32GB</p>
+
+<p>I have a virtual controller I set up for One Finger Death Punch in GWG v1, which consists of...</p>
+
+<ul>
+<li><p>A big button for each of left/right mouse buttons (one on each side of the screen)</p></li>
+<li><p>A &#39;Tap&#39; Global Gesture mapped to left-click, so you can navigate the level map</p></li>
+<li><p>I was also experimenting with a virtual mouse-wheel to zoom in/out on the map, but not sure this is working quite right at the moment (may be may fault, so will ignore this for now!)</p></li>
+</ul>
+
+<p>In GWG v1 this was how things turned out...</p>
+
+<ul>
+<li><p>The game always launches in windowed mode (this is just how the game is, apparently no way to change this)</p></li>
+<li><p>I can toggle to fullscreen mode from the initial menu in the game</p></li>
+<li><p>The menus are navigable, although there is a problem which seems common to some games, where the &#39;Tap&#39; global gesture is not performing the &#39;click&#39; every time (instead it just moves the mouse cursor to that spot). It maybe only works 10-20% of the time, so mostly you have to double-tap to actually click menu options &amp; select levels to play. This is obviously annoying, and can sometimes lead to you pressing twice on something when it already clicked the first time... which can trigger other unexpected things. This issue occurs whether &#39;Mouse Queue&#39; is enabled or disabled.</p></li>
+<li><p>Once you start a level, the game is perfectly playable via the on-screen hudgets/buttons... they react very well to taps, and never miss a tap/click like the global gesture does. Although sometimes when the levels speed up, it seems that the taps/clicks can&#39;t quite be processed/passed-through fast enough... like there&#39;s a little lag. I noticed that v2 includes a numeric setting to tweak the &#39;Key Queue&#39; frequency, but there isn&#39;t a similar setting for the mouse? Maybe in the case of this specific game there are keys I can map to instead of mouse clicks for attacking left/right, but in general this could be an issue if games require many fast clicks in succession. It&#39;s particularly noticeable in this game when you fight the guys with crowns that popup the vertical stacks of fast clicks needed to kill them... sometimes they hit you because you can&#39;t click fast enough to hold them off. It doesn&#39;t seem to be a performance issue, as the framerate stays plenty smooth throughout.</p></li>
+</ul>
+
+<p>With GWG BETA v1.11.1.0...</p>
+
+<ul>
+<li><p>When I try to toggle the game to fullscreen at launch, I get a black screen / hang. I left it running for a while &amp; nothing happened, so had to press &#39;Windows/Start&#39; button &amp; switch to Desktop to force-close.</p></li>
+<li><p>If I leave it in windowed mode when launching, the game works fine, as before</p></li>
+<li><p>Unfortunately, the same problem still exists with the Tap mapped to left-click Global Gesture (only occasionally clicking on the first tap).</p></li>
+<li><p>And the game is equally playable, although the same &#39;slightly laggy&#39; clicks are noticeable at faster speeds.</p></li>
+</ul>
+
+<p>So the main 3 issues (with this game, at least)...</p>
+
+<ul>
+<li><p>Hangs/crashes with the latest beta when entering fullscreen (didn&#39;t in GWG v1.0.7.1)</p></li>
+<li><p>Tap gesture mapped to left-click almost always just moves mouse cursor to that point, but occasionally does perform the click too as it should. </p></li>
+<li><p>On-Screen buttons mapped to left/right-click are responsive until you try to tap them rapidly, then they lag a little (they don&#39;t seem to &#39;lose&#39; any taps, just fall a little behind in processing them through as mouse clicks)</p></li>
+</ul>
+
+<p>I&#39;ve seen the first issue (unreliable tap-click gesture) in a few other games, including &#39;Skulls of the Shogun&#39;. But I&#39;m fairly certain it&#39;s not an issue with my device/setup as I&#39;ve successfully got the same gesture working reliably with every tap/click elsewhere, eg. to navigate menus &amp; move your character in &#39;Torchlight&#39;. And I&#39;ve even tried tweaking Windows&#39; Pen &amp; Touch settings to no avail (disabled hold-to-right-click, reduced time delay for double-tap, etc). As I may have mentioned before, I have a 3rd-party util called &#39;TouchMousePointer&#39; installed (you&#39;ve probably heard of it), but completely removing that makes no difference.</p>
+
+<p>I get the feeling I may be better off simply creating buttons for everything to map to X360 controls, but it seems a waste not to be able to navigate the level map by simply tapping your selection on the screen. And it would obviously be better to try to solve the cause of the problem, since it also affects other games.</p>
+
+<p>Any suggestions/ideas?</p>
+
+<p>Let me know if you need any more details. I didn&#39;t think to grab the logs at the time, but I&#39;ll try to remember to have a look when I next have a go, in case there are any clues regarding the fullscreen crash.</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-147'></a>
+        <div id='post_2' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/f39f63ae69204c0c27e9dc46929d5f28?s=60" /></div>
+            <div class='username'>
+              ryan
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='one-finger-death-punch.html#post-147'>
+            <time class="postTime" style="float:left;" datetime="2014-06-24 18:26:05">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="one-finger-death-punch.html#post-121">In reply to YorkyPudsy</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Firstly this is a fantastic idea and I hope you continue to update this with your experiences!! </p>
+
+<p>For your issue at hand, have you a have already tried a drag left click + tap left click gesture combination? This is one of the more basic gesture combos, but it is very helpful. Another way as I posted on your other thread was the way octodad is mapped; this way you are using a button instead of a gesture. I am in the middle of testing the game now and will update after doing so. Hold off on a bug report for now though. Thank you for your thread! </p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-156'></a>
+        <div id='post_3' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/6f360b01db1337865a88d543dfe94e68?s=60" /></div>
+            <div class='username'>
+              YorkyPudsy
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='one-finger-death-punch.html#post-156'>
+            <time class="postTime" style="float:left;" datetime="2014-06-25 15:49:54">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="one-finger-death-punch.html#post-147">In reply to ryan</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Thanks for looking into it.</p>
+
+<p>Yeah I tried the gesture for tap to click (as mentioned above),  but it&#39;s got the usual problem with having to tap twice sometimes. I think it would be slightly less annoying if it ALWAYS needed a double tap!  But hopefully you can implement some kind of option to force it to single / double taps depending on the game, as discussed before/elsewhere.</p>
+
+<p>Did you manage to reproduce the hanging/crash when switching to full screen? It didn&#39;t do that in GWG v1 on Steam.</p>
+
+<p>EDIT: I mentioned my device above (Asus T100), but it uses Win8.1 32 bit if that makes any difference.</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-159'></a>
+        <div id='post_4' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/f39f63ae69204c0c27e9dc46929d5f28?s=60" /></div>
+            <div class='username'>
+              ryan
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='one-finger-death-punch.html#post-159'>
+            <time class="postTime" style="float:left;" datetime="2014-06-25 23:35:11">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="one-finger-death-punch.html#post-156">In reply to YorkyPudsy</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>We actually just bought an Asus T100 to test today. We have been using it for v1 testing though, a couple members have been having some errors with it. I will test it tomorrow with v2 and everything you mentioned, (as well as FTL!) to see if we can reproduce this double tapping. Strangely enough, I am not getting that function on two of our testing rigs, it could be a bug. </p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-166'></a>
+        <div id='post_5' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/6f360b01db1337865a88d543dfe94e68?s=60" /></div>
+            <div class='username'>
+              YorkyPudsy
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='one-finger-death-punch.html#post-166'>
+            <time class="postTime" style="float:left;" datetime="2014-06-26 13:34:09">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="one-finger-death-punch.html#post-159">In reply to ryan</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Excellent, much easier if you can see the same thing yourselves. FWIW I&#39;ve done all my testing with the keyboard dock detached in case that makes any difference.</p>
+
+<p>I&#39;ve done a bit of searching around and found plenty of people mention the same ccouple of issues (double tap, and wild cursor movement) with various games in general with touchscreens on Win 8 (not with GWG). No fix-all solutions yet though... beyond the devs of each game having to make changes to fix it... hopefully since GWG intercepts the input you can build a generic work around for all games.</p>
+
+<p>It&#39;s weird that even some old games work fine though, and obviously werent built for touch. Eg. Age of Wonders 1</p>
+
+<p>Here&#39;s some random discussions...
+Note that the same issues seem to affect various devices, not just the Asus T100.
+EDIT: added a couple more links</p>
+
+<p><a href="http://answers.microsoft.com/en-us/surface/forum/surfpro2-surfusingpro/requires-two-taps-for-one-click-in-certain/0bbc973e-c34e-44df-9bb2-9b2d6b313de4">http://answers.microsoft.com/en-us/surface/forum/surfpro2-surfusingpro/requires-two-taps-for-one-click-in-certain/0bbc973e-c34e-44df-9bb2-9b2d6b313de4</a></p>
+
+<p><a href="http://steamcommunity.com/app/232790/discussions/0/558746089297533806/">http://steamcommunity.com/app/232790/discussions/0/558746089297533806/</a></p>
+
+<p><a href="http://forums.kleientertainment.com/topic/2636-slight-tweak-for-touch-devices/">http://forums.kleientertainment.com/topic/2636-slight-tweak-for-touch-devices/</a></p>
+
+<p><a href="http://steamcommunity.com/groups/bigpicture/discussions/0/882966056335810074/">http://steamcommunity.com/groups/bigpicture/discussions/0/882966056335810074/</a></p>
+
+<p>EDIT: Another weird thing... Some games GWG already seems to fix this weird double-tap thing for. Eg. Torchlight 1 menus/options keep clicking the wrong thing without GWG (it clicks where you previously tapped when you tap again), but with a simple pass through tap-click gesture in GWG it&#39;s perfectly fine. So I think GWG is already halfway there. I reckon it might have something to do with different ways mouse clicks can be detected, mouse down/up/both, or side effects of different API&#39;s being used.</p>
+
+<p>EDIT: After thinking about it some more, here&#39;s what seems to be happening that would explain the double-tap thing.... each tap does a &#39;mouse up&#39; at the previous location, then a &#39;mouse down&#39; at the current location.  What should happen is a &#39;mouse down&#39; followed by immediate &#39;mouse up&#39;, both at the current tap location. Not sure on the other issue with the really sensitive zone in the middle of the screen though!</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-170'></a>
+        <div id='post_6' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/f39f63ae69204c0c27e9dc46929d5f28?s=60" /></div>
+            <div class='username'>
+              ryan
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='one-finger-death-punch.html#post-170'>
+            <time class="postTime" style="float:left;" datetime="2014-06-26 18:45:15">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="one-finger-death-punch.html#post-166">In reply to YorkyPudsy</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Great observations YorkyPudsy! I have just downloaded both games (will talk about ftl in your other thread). Right off the bat this game is another game that has built in touch controls, but it works. I am getting the same black screen issue on full screen. </p>
+
+<p>It could be possible that(and this goes for torchlight as well), because the game is recording a tap gesture (without gameplay, and needs two taps as you mentioned to navigate menus) adding a single tap gesture is working as a &#39;&#39;second&#39;&#39; tap to navigate, but it is somewhat inconsistent. I have always found using just a tap gesture for click to be inconsistent regardless of game. </p>
+
+<p>Using a tap left click and a drag left click in the same vc tends to make the process much more precise. This could be because of your observation with up and down states. In any case, using this combination in the vc has made it so you always only have to tap once for menu nav. </p>
+
+<p>In game, I tested both click VC buttons and using the d and s keyboard buttons as well. I am not the best at the game but I found as I played it more the touch buttons started feeling exactly like the physical d and s buttons. Maybe try mapping the d and s instead of the left and right mouse clicks if you are having further issue? The only problem I found was quickly moving left and right, but that was fixed as I got used to it. In any case I will note the weirdness of the tap and touch based games. Thank you and keep up the good work!</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-173'></a>
+        <div id='post_7' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/6f360b01db1337865a88d543dfe94e68?s=60" /></div>
+            <div class='username'>
+              YorkyPudsy
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='one-finger-death-punch.html#post-173'>
+            <time class="postTime" style="float:left;" datetime="2014-06-27 08:11:43">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="one-finger-death-punch.html#post-170">In reply to ryan</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>I guess it&#39;s &quot;good&quot; news that you get the same black screen issue! So hopefully you can track that down your end.</p>
+
+<p>I gave it another go with your suggestions...</p>
+
+<ul>
+<li><p>Tap &amp; Drag gestures mapped to left click - still seemed to be inconsistent, less than a third of the time actually doing the click without needing a second tap. Although I did find that if I kind of did slightly extended taps &amp; moved my finger a little during the tap, that it registered more consistently. That might backup your theory on the &quot;second&quot; tap being needed somehow.</p></li>
+<li><p>Adding &quot;Alt&quot; click in addition to the main click on the tap gesture (I think you mentioned it in the FTL thread) - didn&#39;t seem to make any difference. Even tried adding a click on BOTH of the Alt fields!</p></li>
+<li><p>Mapping attack left/right buttons to &#39;S&#39;/&#39;D&#39; keys instead of L/R-clicks - this did seem to lag behind my input less, and made the game much more playable at higher speeds. I reduced the key queue period to 50, which may or may not have helped (not entirely sure of the effect that&#39;s supposed to have!). But it certainly seemed to let me kind of &#39;queue up&#39; inputs... for example for the red guys that you have to hit 3 times, I could quickly tap 3 times (finishing my taps before my avatar has actually completed his 2nd attack), and all 3 attacks would be consistently performed. This was difficult to get right before (with the L/R mouse mappings) as it didn&#39;t seem to let me queue the attacks, regardless of the toggle option for &#39;mouse queue&#39; on the VC.</p></li>
+</ul>
+
+<p>BTW as far as getting better at the game, I&#39;m certainly no expert either, but I generally seem to do better when I slow down, rather than going all-out Bruce Lee on the little guys! I guess that&#39;s the idea... precision over speed.</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-227'></a>
+        <div id='post_8' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/6f360b01db1337865a88d543dfe94e68?s=60" /></div>
+            <div class='username'>
+              YorkyPudsy
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='one-finger-death-punch.html#post-227'>
+            <time class="postTime" style="float:left;" datetime="2014-07-16 11:10:59">23 days  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="one-finger-death-punch.html#post-173">In reply to YorkyPudsy</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Quick update after retesting with v1.12.6.3</p>
+
+<ul>
+<li><p>unfortunately still getting the crash when toggle to fullscreen</p></li>
+<li><p>it may be my imagination, but I seem to have fewer occurrences of taps not clicking. Perhaps only about 10% now move the mouse without clicking.., the rest click immediately. Strange that it&#39;s still just as bad in FTL though.</p></li>
+</ul>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+
+    </div>
+  
+    <div class="bottomPaginationV2Block "></div>
+    
+  </div>
+  
+</div>
+
+<!-- end forum topic show - views/forem/topics/show.html.erb -->
+
+<div class='clearBoth'></div>
+</div>
+<!-- /.pageInt -->
+<div class='clearBoth'>&nbsp;</div>
+</div>
+<!-- /#content -->
+<div class='clearBoth'></div>
+<section>
+<div id='footer'>
+<div class='pageInt'>
+<div class='minorRightColumn'>
+<ul class='navbar'>
+<li>
+<a href="http://beta.gameplay.gestureworks.com/bug_reports/new/">Bug Report?</a>
+</li>
+<li>
+<a href='http://gestureworks.com/legal' target='_blank'>Legal &nbsp;/&nbsp; Terms Of Use</a>
+</li>
+</ul>
+<div class='clearBoth'>
+<!-- clearing div -->
+</div>
+<ul class='socialMedia'>
+<li class='facebook fadeHover'>
+<a href='https://www.facebook.com/gwgameplay' target='_blank'>
+<!-- facebook icon from sprite included as background -->
+</a>
+</li>
+<li class='tumblr fadeHover'>
+<a href='http://windows8touch.tumblr.com/' target='_blank'>
+<!-- tumblr icon from sprite included as background -->
+</a>
+</li>
+<li class='twitter fadeHover'>
+<a href='https://twitter.com/gestureworks' target='_blank'>
+<!-- twitter icon from sprite included as background -->
+</a>
+</li>
+</ul>
+</div>
+<!-- /.minorRightColumn -->
+<div class='minorLeftColumn'>
+<ul class='navbar'>
+<li class='hidden'><li><a href="http://beta.gameplay.gestureworks.com/virtual_controllers" class=" ">Virtual Controllers</a></li></li>
+<li class='fadeHover first'>
+<a href="http://beta.gameplay.gestureworks.com/how-it-works">How It Works</a></li>
+
+<li class='active fadeHover'>
+<a href="http://beta.gameplay.gestureworks.com/forums">Forum</a>
+</li>
+</ul>
+
+</div>
+<!-- /.minorLeftColumn -->
+<div class='majorLeftColumn'>
+<div id='shareThisExtWrapper' style='height:22px;overflow:hidden;margin:0 0 17px -4px;'>
+<div id='shareThisIntWrapper' style='position:relative;top:-51px;'>
+<span class='st_facebook_vcount' displayText='Facebook'></span>
+<span class='st_twitter_vcount' displayText='Tweet'></span>
+<span class='st_googleplus_vcount' displayText='Google +'></span>
+<!-- restore three lines above when out of beta and remove three lines below -->
+</div>
+</div>
+<!-- /#shareThisWrapper -->
+<a href='http://gestureworks.com' target='_blank'>
+<img alt='GestureWorks' class='gwFooterLogo' src='../../../assets/gwlogo-255x50.png'>
+</a>
+<p>
+&copy; 2014 Ideum. All rights reserved.
+<a href='http://ideum.com'>Ideum</a>
+and
+<a href='http://gestureworks.com'>GestureWorks</a>
+are trademarks of Ideum, Inc.
+All other trademarks are property of their respective owners in the US and other countries.
+</p>
+</div>
+<!-- /.majorRightColumn -->
+</div>
+<!-- /.pageInt -->
+</div>
+</section>
+<script src="http://ws.sharethis.com/button/buttons.js" type="text/javascript"></script>
+<script>
+  if (typeof stLight === 'object') { // check for successful load
+    stLight.options({
+      publisher: "5a795834-a61b-44a5-b584-d96688b291d5",
+      doNotHash: false,
+      doNotCopy: false,
+      hashAddressBar: false
+    });
+  }
+</script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-198125-25', 'gestureworks.com');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+<!--[if lt IE 7 ]>
+<script src="/assets/dd_belatedpng-0a9c5a9e09b396bbdf7e543276b431fe.js" type="text/javascript"></script>
+<script>
+  DD_belatedPNG.fix('img, .png_bg');
+</script>
+<![endif]-->
+<script src="https://js.stripe.com/v2/" type="text/javascript"></script>
+<script>
+  Stripe.setPublishableKey('pk_live_FF37ehFAHbiZUcyO98PFcUzR');
+</script>
+<script src="../../../assets/application-44add310ad30fcd5838e18181051dac9.js" type="text/javascript"></script>
+
+<script>
+  _domReadyQueue.forEach($);
+  delete _domReadyQueue;
+</script>
+</body>
+</html>

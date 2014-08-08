@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html id='webView'>
+<head>
+<meta charset='utf-8'>
+<!--[if IE]>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;' name='viewport'>
+<![endif]-->
+<title>GestureWorks Gameplay</title>
+<!-- html5 boilerplate faster page load hack - added to increase page load performance -->
+<!--[if IE]>  <![endif]-->
+<link content='http://beta.gameplay.gestureworks.com/gameplay_forums/android-support/topics/play-with-friends?page=1' rel='canonical'>
+<meta content='article' name='og:type' property='og:type'>
+<meta content='GestureWorks Gameplay' name='og:title' property='og:title'>
+<meta content='GestureWorks Gameplay' name='og:site_name' property='og:site_name'>
+<meta content='http://beta.gameplay.gestureworks.com/gameplay_forums/android-support/topics/play-with-friends?page=1' name='og:url' property='og:url'>
+<!-- using default image -->
+<meta content='http://beta.gameplay.gestureworks.com/assets/social_gestureworks_gameplay-6557c71a3551572139ae39d500106eff.jpg' name='og:image' property='og:image'>
+<!-- using default description -->
+<meta content='Dozens of pre-built Virtual Controllers come with GestureWorks Gameplay. The software also includes an easy-to-use authoring tool allowing you to build (and share) your own controllers for just about any Windows-based game or application.' name='og:description' property='og:description'>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="OHDdeQfdxsWSrZaL9MW4eII2BrkT9qqlLFXV57l3/T8=" name="csrf-token" />
+
+<link href="http://gesturekey-gameplay.dev/blog/feed.rss?max_results=50" rel="alternate" title="GestureWorks Gameplay Blog Feed" type="application/rss+xml" />
+<link href="../../../assets/application-3e07b0c29096720a9cfac34a1638dbb7.css" media="all" rel="stylesheet" type="text/css" />
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/2.1.0/es5-shim.min.js" type="text/javascript"></script>
+<script>
+  document.createElement('ng-include');
+  document.createElement('ng-pluralize');
+  document.createElement('ng-view');
+  document.createElement('pagination');
+</script>
+<![endif]-->
+<script src="../../../assets/modernizr-min-0657f20591a634e4699eba62bbb23900.js" type="text/javascript"></script>
+<script>
+  var _domReadyQueue = [];
+  $ = function (fun) { _domReadyQueue.push(fun) }
+</script>
+</head>
+<body ng-app='GesturekeyGameplay'>
+<section>
+<div id='masthead'>
+<div id='loginBar'>
+<div class='pageExt'>
+<div id='loginBar'>
+<div class='pageExt'>
+<ul class='navbar'>
+<li class='textButton logIn fadeHover'><a href="http://beta.gameplay.gestureworks.com/users/sign_in">Sign in</a></li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+<div id='banner'>
+<div class='pageInt'>
+<a href="http://beta.gameplay.gestureworks.com/virtual_controllers" class="block fadeHover"><header>
+<h1>GestureWorks GamePlay</h1>
+<h2>Touch controls for your favorite games.</h2>
+</header>
+</a></div>
+</div>
+<div id='navigation'>
+<div class='pageInt'>
+<ul class='navbar'>
+<li class='fadeHover'>
+<a href="http://beta.gameplay.gestureworks.com/virtual_controllers">Virtual Controllers</a>
+</li>
+<li class='fadeHover first'>
+<a href="http://beta.gameplay.gestureworks.com/how-it-works">How It Works</a></li>
+
+<li class='active fadeHover'>
+<a href="http://beta.gameplay.gestureworks.com/forums">Forum</a>
+</li>
+</ul>
+
+<div class='searchWrap'>
+</div>
+</div>
+</div>
+</div>
+<div class='clearBoth'></div>
+</section>
+
+<div id='content'>
+<div class='pageInt'>
+<div class='flash'></div>
+<!-- begin forum topic show - views/forem/topics/show.html.erb -->
+
+  <div id='topic' class='unlocked'>
+  
+    <!-- begin forum topic head partial - views/forem/topics/_head.html.erb -->
+
+<div id='forum' class="topics">
+
+  <h1><a href="../../index.html">Forums</a> &raquo; <a href="../../android-support.html">Android Support</a> &raquo; Play with friends! </h1>
+  
+  
+<!-- end forum topic head partial - views/forem/topics/_head.html.erb -->
+
+    
+    <form class="searchWrap version2 floatRight" action="http://beta.gameplay.gestureworks.com/gameplay_forums/search" method="GET">
+      <input id="category" name="category" type="hidden" value="getting-started-with-gameplay" />
+      <input id="forum" name="forum" type="hidden" value="android-support" />
+      <input class="searchField" name="q" placeholder="Search..." type="search">
+      <input class="searchImg version2" id="searchButton" title="Go" type="submit" value="">
+    </form>
+  
+    <menu id='forum_topic_links'>
+    </menu>
+    
+    <div class="moderationBlock nonAdmin">
+      
+      
+      
+      <div class="topPaginationBlock"></div>
+    
+    </div><!-- /.moderationBlock -->
+  
+    <div id='posts'>
+      <!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-98'></a>
+        <div id='post_1' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/f39f63ae69204c0c27e9dc46929d5f28?s=60" /></div>
+            <div class='username'>
+              ryan
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='play-with-friends%3Fpage=1.html#post-98'>
+            <time class="postTime" style="float:left;" datetime="2014-06-13 16:01:14">about 1 month  ago</time>
+          </a> 
+          
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Feel free to post any issues with connecting, editing tools, or general Android issues.</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-176'></a>
+        <div id='post_2' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/a4251bbd2d209e4478798babf3be94e9?s=60" /></div>
+            <div class='username'>
+              TeKillza
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='play-with-friends%3Fpage=1.html#post-176'>
+            <time class="postTime" style="float:left;" datetime="2014-06-30 19:34:21">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="play-with-friends%3Fpage=1.html#post-98">In reply to ryan</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>I have a Dell Venue 8 Pro tablet and a Galaxy Note 3 N9000 android smartphone. I linked both tablet and phone, but when I click connect to my tablet device, it says &quot;Could not connect, did not find Gameplay service&quot;. </p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-177'></a>
+        <div id='post_3' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/f39f63ae69204c0c27e9dc46929d5f28?s=60" /></div>
+            <div class='username'>
+              ryan
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='play-with-friends%3Fpage=1.html#post-177'>
+            <time class="postTime" style="float:left;" datetime="2014-06-30 23:29:17">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="play-with-friends%3Fpage=1.html#post-176">In reply to TeKillza</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Hello TeKillza,</p>
+
+<p>From experience the number one thing that prevents the Android device from connecting is either:
+-When your drivers are out of date or not updated for windows 8/8.1
+-When you have not synced both of the devices together</p>
+
+<p>Please look at your drivers. It is difficult helping with Bluetooth connections because most of the time it is not related to Gameplay. Sorry if that was not specific enough.</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-182'></a>
+        <div id='post_4' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/a4251bbd2d209e4478798babf3be94e9?s=60" /></div>
+            <div class='username'>
+              TeKillza
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='play-with-friends%3Fpage=1.html#post-182'>
+            <time class="postTime" style="float:left;" datetime="2014-07-02 08:10:49">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="play-with-friends%3Fpage=1.html#post-177">In reply to ryan</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Hello Ryan,
+Thanks for quick response. All drivers are up to date. Checked with dell update and windows updates.
+Both phone and tablet see each other: when i try to connect, my phone is marked as connected in tablet&#39;s metro bt settings for a second. But after the error on phone, tablet says that my phone is authorised.
+Any suggestions?</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-183'></a>
+        <div id='post_5' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/f39f63ae69204c0c27e9dc46929d5f28?s=60" /></div>
+            <div class='username'>
+              ryan
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='play-with-friends%3Fpage=1.html#post-183'>
+            <time class="postTime" style="float:left;" datetime="2014-07-03 15:55:39">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="play-with-friends%3Fpage=1.html#post-182">In reply to TeKillza</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Hello TeKillza, I have been trying to reproduce this for the past day. After a google search it seems like some people were running into a problem with dell venue pro 8&#39;s bluetooth. One fix was to uninstall and re-install bluetooth drivers. </p>
+
+<p>Before that though, have you been able to connect your phone and tablet via bluetooth in a different application before, and actually use them? This might be a silly question, but it could solve some issues.  </p>
+
+<p>Also generally when you have paired your devices they are not connected. Rather they can connect while Gameplay is running (on both windows 8 and andriod device), then after a game launches the play button highlights. </p>
+
+<p>I have been scratching my head on this one. I hope we can resolve your issues soon. Thank you for the responses. </p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-184'></a>
+        <div id='post_6' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/a4251bbd2d209e4478798babf3be94e9?s=60" /></div>
+            <div class='username'>
+              TeKillza
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='play-with-friends%3Fpage=1.html#post-184'>
+            <time class="postTime" style="float:left;" datetime="2014-07-03 22:40:28">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="play-with-friends%3Fpage=1.html#post-183">In reply to ryan</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Thanks Ryan, but I paired both tablet and phone to a bluetooth keyboard and it works perfectly fine. I&#39;ll try to reinstall the drivers, but I don&#39;t think it&#39;ll help. 
+P.S.: English is not my first language, so I meant everything you said in last paragraph :P Phone and tablet are paired but are connected only for a sec before the error on phone in gameplay app. </p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-186'></a>
+        <div id='post_7' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/30a15c1c45219738bde78cf52ce99912?s=60" /></div>
+            <div class='username'>
+              billysaw
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='play-with-friends%3Fpage=1.html#post-186'>
+            <time class="postTime" style="float:left;" datetime="2014-07-04 14:59:20">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="play-with-friends%3Fpage=1.html#post-183">In reply to ryan</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Same problem ... When connecting writes: &quot;Could not connect did not find gameplay service&quot;. What to do?</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-189'></a>
+        <div id='post_8' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/30a15c1c45219738bde78cf52ce99912?s=60" /></div>
+            <div class='username'>
+              billysaw
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='play-with-friends%3Fpage=1.html#post-189'>
+            <time class="postTime" style="float:left;" datetime="2014-07-06 11:48:40">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="play-with-friends%3Fpage=1.html#post-186">In reply to billysaw</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Solved the problem! You just need to restart your computer. On the next run, GWG tunes and everything will work (via the command line which will then patches)</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-193'></a>
+        <div id='post_9' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/f39f63ae69204c0c27e9dc46929d5f28?s=60" /></div>
+            <div class='username'>
+              ryan
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='play-with-friends%3Fpage=1.html#post-193'>
+            <time class="postTime" style="float:left;" datetime="2014-07-07 16:18:27">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="play-with-friends%3Fpage=1.html#post-189">In reply to billysaw</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>I am happy to hear that it is working for you now, any luck TeKillza?</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-202'></a>
+        <div id='post_10' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/a4251bbd2d209e4478798babf3be94e9?s=60" /></div>
+            <div class='username'>
+              TeKillza
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='play-with-friends%3Fpage=1.html#post-202'>
+            <time class="postTime" style="float:left;" datetime="2014-07-08 12:37:00">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="play-with-friends%3Fpage=1.html#post-193">In reply to ryan</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Still no luck. I&#39;ll try to unpair it and try again</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-205'></a>
+        <div id='post_11' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/a4251bbd2d209e4478798babf3be94e9?s=60" /></div>
+            <div class='username'>
+              TeKillza
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='play-with-friends%3Fpage=1.html#post-205'>
+            <time class="postTime" style="float:left;" datetime="2014-07-08 22:24:40">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="play-with-friends%3Fpage=1.html#post-193">In reply to ryan</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Repaired and it works now! Thank you!</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-206'></a>
+        <div id='post_12' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/f39f63ae69204c0c27e9dc46929d5f28?s=60" /></div>
+            <div class='username'>
+              ryan
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='play-with-friends%3Fpage=1.html#post-206'>
+            <time class="postTime" style="float:left;" datetime="2014-07-08 23:17:39">about 1 month  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="play-with-friends%3Fpage=1.html#post-205">In reply to TeKillza</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>That is awesome to hear! Can you please post exactly what you did to get it to work so you can help other users possibly having the same issues? Thank you TeKillza.</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-212'></a>
+        <div id='post_13' class='post odd'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/a4251bbd2d209e4478798babf3be94e9?s=60" /></div>
+            <div class='username'>
+              TeKillza
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='play-with-friends%3Fpage=1.html#post-212'>
+            <time class="postTime" style="float:left;" datetime="2014-07-10 19:14:39">29 days  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="play-with-friends%3Fpage=1.html#post-206">In reply to ryan</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Well, I opened adapter settings, disabled bluetooth, deleted my phone from paired devices, deleted tablet from phone&#39;s bluetooth devices, rebooted tablet, opened gestureworks beta and started pairing. It worked, but sometimes games crash with &quot;not responding&quot; message after about 30 seconds of use with android remote. Without it they work fine</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+<!-- begin forum posts post partial - views/forem/posts/_post.html.erb -->
+
+<section class="forumInternalPage topicView">
+		
+  <div class="threeThirdsColumn leftFloat">
+
+    <div class="contentBlock">
+      
+      <div id='forums' class='forums subdued'>
+
+        <a name='post-213'></a>
+        <div id='post_14' class='post even'>
+        
+          <div class='user'>
+            <div class='icon'><img alt="Avatar" src="http://www.gravatar.com/avatar/3e6d437092bd0428361bde30f5b8d2a3?s=60" /></div>
+            <div class='username'>
+              rowanderrick
+            </div>
+          </div>
+        
+          <div class='contents'>
+        
+          <a href='play-with-friends%3Fpage=1.html#post-213'>
+            <time class="postTime" style="float:left;" datetime="2014-07-11 14:26:36">28 days  ago</time>
+          </a> 
+          
+            <div class='in_reply_to' style="float:left;">
+               &nbsp; - <a href="play-with-friends%3Fpage=1.html#post-212">In reply to TeKillza</a>
+            </div>
+          
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+          
+          <p>Thank you for sharing the steps you took with us, TeKillza!</p>
+
+
+          <div style="display:inline-block;width:95%;height:0px;">&nbsp;</div>
+      
+          <ul class='actions'>
+          </ul>
+          
+        </div><!-- /.post -->
+      
+      </div><!-- /#forums -->
+    </div><!-- /.contentBlock -->
+  </div><!-- .threeThirdsColumn -->
+  
+</section>
+
+<!-- end forum posts post partial - views/forem/posts/_post.html.erb -->
+
+    </div>
+  
+    <div class="bottomPaginationV2Block "></div>
+    
+  </div>
+  
+</div>
+
+<!-- end forum topic show - views/forem/topics/show.html.erb -->
+
+<div class='clearBoth'></div>
+</div>
+<!-- /.pageInt -->
+<div class='clearBoth'>&nbsp;</div>
+</div>
+<!-- /#content -->
+<div class='clearBoth'></div>
+<section>
+<div id='footer'>
+<div class='pageInt'>
+<div class='minorRightColumn'>
+<ul class='navbar'>
+<li>
+<a href="http://beta.gameplay.gestureworks.com/bug_reports/new/">Bug Report?</a>
+</li>
+<li>
+<a href='http://gestureworks.com/legal' target='_blank'>Legal &nbsp;/&nbsp; Terms Of Use</a>
+</li>
+</ul>
+<div class='clearBoth'>
+<!-- clearing div -->
+</div>
+<ul class='socialMedia'>
+<li class='facebook fadeHover'>
+<a href='https://www.facebook.com/gwgameplay' target='_blank'>
+<!-- facebook icon from sprite included as background -->
+</a>
+</li>
+<li class='tumblr fadeHover'>
+<a href='http://windows8touch.tumblr.com/' target='_blank'>
+<!-- tumblr icon from sprite included as background -->
+</a>
+</li>
+<li class='twitter fadeHover'>
+<a href='https://twitter.com/gestureworks' target='_blank'>
+<!-- twitter icon from sprite included as background -->
+</a>
+</li>
+</ul>
+</div>
+<!-- /.minorRightColumn -->
+<div class='minorLeftColumn'>
+<ul class='navbar'>
+<li class='hidden'><li><a href="http://beta.gameplay.gestureworks.com/virtual_controllers" class=" ">Virtual Controllers</a></li></li>
+<li class='fadeHover first'>
+<a href="http://beta.gameplay.gestureworks.com/how-it-works">How It Works</a></li>
+
+<li class='active fadeHover'>
+<a href="http://beta.gameplay.gestureworks.com/forums">Forum</a>
+</li>
+</ul>
+
+</div>
+<!-- /.minorLeftColumn -->
+<div class='majorLeftColumn'>
+<div id='shareThisExtWrapper' style='height:22px;overflow:hidden;margin:0 0 17px -4px;'>
+<div id='shareThisIntWrapper' style='position:relative;top:-51px;'>
+<span class='st_facebook_vcount' displayText='Facebook'></span>
+<span class='st_twitter_vcount' displayText='Tweet'></span>
+<span class='st_googleplus_vcount' displayText='Google +'></span>
+<!-- restore three lines above when out of beta and remove three lines below -->
+</div>
+</div>
+<!-- /#shareThisWrapper -->
+<a href='http://gestureworks.com' target='_blank'>
+<img alt='GestureWorks' class='gwFooterLogo' src='../../../assets/gwlogo-255x50.png'>
+</a>
+<p>
+&copy; 2014 Ideum. All rights reserved.
+<a href='http://ideum.com'>Ideum</a>
+and
+<a href='http://gestureworks.com'>GestureWorks</a>
+are trademarks of Ideum, Inc.
+All other trademarks are property of their respective owners in the US and other countries.
+</p>
+</div>
+<!-- /.majorRightColumn -->
+</div>
+<!-- /.pageInt -->
+</div>
+</section>
+<script src="http://ws.sharethis.com/button/buttons.js" type="text/javascript"></script>
+<script>
+  if (typeof stLight === 'object') { // check for successful load
+    stLight.options({
+      publisher: "5a795834-a61b-44a5-b584-d96688b291d5",
+      doNotHash: false,
+      doNotCopy: false,
+      hashAddressBar: false
+    });
+  }
+</script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-198125-25', 'gestureworks.com');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+<!--[if lt IE 7 ]>
+<script src="/assets/dd_belatedpng-0a9c5a9e09b396bbdf7e543276b431fe.js" type="text/javascript"></script>
+<script>
+  DD_belatedPNG.fix('img, .png_bg');
+</script>
+<![endif]-->
+<script src="https://js.stripe.com/v2/" type="text/javascript"></script>
+<script>
+  Stripe.setPublishableKey('pk_live_FF37ehFAHbiZUcyO98PFcUzR');
+</script>
+<script src="../../../assets/application-44add310ad30fcd5838e18181051dac9.js" type="text/javascript"></script>
+
+<script>
+  _domReadyQueue.forEach($);
+  delete _domReadyQueue;
+</script>
+</body>
+</html>
